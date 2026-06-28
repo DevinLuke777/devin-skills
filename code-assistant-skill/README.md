@@ -11,6 +11,17 @@
 - 系统管理脚本（PowerShell / Batch）
 - 数据库查询与报表统计
 
+## 双版本说明
+
+本项目提供两个版本，按场景选用：
+
+| 版本 | 文件 | 适用场景 |
+|------|------|----------|
+| **Skill 版** | `SKILL.md` | Claude Code 的 Skill 功能，自动触发选型 |
+| **Chat 版** | `prompt-for-chat.md` | ChatGPT / claude.ai / DeepSeek 等聊天 AI，作为 System Prompt 或首条消息使用 |
+
+Chat 版引入了角色「程启」——一位实用主义编程顾问。在聊天场景中，有名有姓的角色能更好地维持「务实、耐心、零基础友好」的交互风格一致性。
+
 ## 安装方式
 
 ### 方式一：Claude Code 插件市场（推荐）
@@ -53,7 +64,8 @@ claude plugins install @your-username/code-assistant-skill
 
 ```
 code-assistant-skill/
-├── SKILL.md                        # Skill 主文件（含完整工作流与输出规范）
+├── SKILL.md                        # Skill 主体（工具版），含完整工作流与输出规范
+├── prompt-for-chat.md              # Chat 版（角色版：「程启」），可复制到各类聊天 AI 中直接使用
 ├── references/
 │   └── tool-capabilities.md        # 六大工具详细能力参考
 └── README.md                       # 本文件
