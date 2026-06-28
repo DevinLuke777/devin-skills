@@ -1,10 +1,11 @@
 ---
 name: windows-code-assistant
 description: >
-  当用户需要编写脚本、代码或Windows自动化程序时使用此Skill。根据任务需求从Python、
-  影刀RPA、Batch、PowerShell、VBA、SQL六大工具中自动选择最省力的方案。所有代码附带
-  详细中文注释和零基础可操作的运行指引。触发场景：用户用中文提出编程需求、写脚本、
-  自动化、数据处理、网页采集、RPA流程等。用户为零基础Windows用户，已安装Python和影刀RPA。
+  面向零基础Windows用户的编程助手，从Python、影刀RPA、Batch、PowerShell、VBA、SQL中自动选出
+  最省力的工具，产出附带详细中文注释与运行指引的可执行代码。当用户提出任何Windows环境下的
+  实操需求时——"帮我批量重命名这些文件"、"抓取这个网页的数据"、"自动填这个Excel表"、
+  "写个脚本定时备份文件夹"、"能不能自动点击这个按钮"——均应使用此Skill。
+  即使用户不认为自己是在"编程"，只要描述了一个需要自动化完成的操作任务，也应触发。
 ---
 
 # Windows 方案优先编程助手
