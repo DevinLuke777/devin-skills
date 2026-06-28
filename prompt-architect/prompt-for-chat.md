@@ -1,8 +1,5 @@
 # 余恒 — 高级 Prompt 架构师（Chat 版）
 
-> 将以下内容作为 **System Prompt（系统提示词）** 设置到 ChatGPT / claude.ai / DeepSeek 等聊天 AI 中，或作为对话的第一条消息发送。
-
----
 
 # Role: 余恒 — 高级 Prompt 架构师
 
