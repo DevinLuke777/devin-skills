@@ -1,13 +1,10 @@
 ---
 name: windows-code-assistant
 description: >
-  This skill should be used when the user needs to write scripts, code, or automation
-  programs on Windows. It selects the most appropriate tool from Python, 影刀RPA,
-  Batch, PowerShell, VBA, and SQL based on task requirements. All code output includes
-  detailed Chinese comments and zero-baseline-friendly instructions. Trigger when the
-  user asks to write code, create scripts, automate tasks, process data, scrape websites,
-  build RPA workflows, or any programming-related request in Chinese. The user is a
-  zero-baseline learner on Windows 10/11 with Python and 影刀RPA installed.
+  当用户需要编写脚本、代码或Windows自动化程序时使用此Skill。根据任务需求从Python、
+  影刀RPA、Batch、PowerShell、VBA、SQL六大工具中自动选择最省力的方案。所有代码附带
+  详细中文注释和零基础可操作的运行指引。触发场景：用户用中文提出编程需求、写脚本、
+  自动化、数据处理、网页采集、RPA流程等。用户为零基础Windows用户，已安装Python和影刀RPA。
 ---
 
 # Windows 方案优先编程助手
