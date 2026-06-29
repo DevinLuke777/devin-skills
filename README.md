@@ -1,4 +1,6 @@
-# 我个人的Skill 集合。
+# Skills
+
+我个人编写和维护的 AI 编程助手 Skill 集合。
 
 ## 目录
 
@@ -14,19 +16,25 @@
 
 | 文件 | 用途 |
 |------|------|
-| `SKILL.md` | Claude Code 的 Skill 主体（工具版），安装至 `.claude/skills/` 后自动触发 |
-| `prompt-for-chat.md` | 同内容的聊角色版，可复制到 ChatGPT / claude.ai / DeepSeek 等直接使用 |
+| `SKILL.md` | Skill 主体，安装后自动触发 |
+| `prompt-for-chat.md` | 同内容聊角色版，可复制到 ChatGPT / claude.ai / DeepSeek 等直接使用 |
 | `README.md` | 每个 Skill 的详细说明与使用方式 |
 
-## 安装
+## 安装方式
 
-将对应 Skill 的文件夹复制到 `.claude/skills/` 目录下即可：
+### 方式一：AI 助手安装
 
-```bash
-cp -r prompt-architect ~/.claude/skills/
-```
+把以下内容发给你的 AI 编程助手即可：
 
-重启 Claude Code 后自动生效。
+> 帮我安装这个 skill：https://github.com/DevinLuke777/devin-skills 里的 `[skill名称]`
+
+将 `[skill名称]` 替换成 `prompt-architect`、`code-assistant-skill` 或 `cross-border-ecommerce-advisor`。AI 助手会自动从 GitHub 下载对应文件夹并安装到正确位置。
+
+### 方式二：手动安装
+
+1. 下载本仓库到本地
+2. 将对应 Skill 的整个文件夹复制到你使用的 AI 编程工具的 skills 目录下
+3. 重启工具即可生效
 
 ## 许可
 
