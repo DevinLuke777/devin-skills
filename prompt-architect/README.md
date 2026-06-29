@@ -4,7 +4,7 @@
 
 ## 这是什么？
 
-`prompt-architect` 是一个 Claude Code Skill，专注于将用户模糊、零散的想法转化为结构严谨、逻辑清晰的 **结构化 Prompt**。它内置了五步工作流（信息收集 → 要素拆解 → 结构化生成 → 自我审查 → 交付迭代）和一套经过验证的 Prompt 输出模板。
+`prompt-architect` 是一个 Skill，专注于将用户模糊、零散的想法转化为结构严谨、逻辑清晰的 **结构化 Prompt**。它内置了五步工作流（信息收集 → 要素拆解 → 结构化生成 → 自我审查 → 交付迭代）和一套经过验证的 Prompt 输出模板。
 
 ## 适用场景
 
@@ -15,20 +15,21 @@
 
 ## 安装
 
-1. 将本文件夹放入 `.claude/skills/` 目录下：
+### 方式一：AI 助手安装
 
-```
-.claude/skills/
-├── prompt-architect/
-│   ├── SKILL.md
-│   └── README.md
-```
+把以下内容发给你的 AI 编程助手即可：
 
-2. 重启 Claude Code 或重新加载 skills。
+> 帮我安装这个 skill：https://github.com/DevinLuke777/devin-skills 里的 `prompt-architect`
+
+### 方式二：手动安装
+
+1. 下载本仓库到本地
+2. 将 `prompt-architect` 整个文件夹复制到你使用的 AI 编程工具的 skills 目录下
+3. 重启工具即可生效
 
 ## 使用方式
 
-在 Claude Code 中直接表达需求即可触发，例如：
+在对话中直接表达需求即可自动触发，例如：
 
 - "帮我写一个分析竞品 Listing 的 prompt"
 - "我想让 AI 帮我做代码审查，帮我设计一个指令"
@@ -70,7 +71,7 @@ Skill 会自动引导你补全缺失的信息，并在内部完成自我审查�
 
 | 版本 | 文件 | 适用场景 |
 |------|------|----------|
-| **Skill 版** | `SKILL.md` | Claude Code 的 Skill 功能，工具化自动触发 |
+| **Skill 版** | `SKILL.md` | 编程助手 Skill 功能，自动触发 |
 | **Chat 版** | `prompt-for-chat.md` | ChatGPT / claude.ai / DeepSeek 等聊天类 AI，作为 System Prompt 或首条消息使用 |
 
 Chat 版恢复了「余恒」角色设定——在聊天场景中，有名有姓的角色能更好地维护对话风格的一致性和长对话中的行为稳定性。
@@ -86,3 +87,7 @@ Chat 版恢复了「余恒」角色设定——在聊天场景中，有名有姓
 ## 许可
 
 MIT License
+
+---
+
+[← 返回根目录](../README.md)
