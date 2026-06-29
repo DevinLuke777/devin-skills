@@ -24,31 +24,37 @@ Chat 版引入了角色「程启」——一位实用主义编程顾问。在聊
 
 ## 安装方式
 
-### 方式一：Claude Code 插件市场（推荐）
+### 方式一：一行命令（推荐）
+
+支持 Skills 标准的 AI 编程工具（Claude Code、Codex、Cursor、OpenClaw、Hermes 等）均可使用：
 
 ```bash
-# 在 Claude Code 中安装
-claude plugins install @your-username/code-assistant-skill
+# 自动检测 runtime 并安装
+skills install code-assistant-skill
 ```
 
-### 方式二：手动安装
+或通过各工具的插件市场安装（如 `claude plugins install` / `codex plugins install`）。
+
+### 方式二：手动安装（路径对照表）
+
+| Runtime | 安装路径 |
+|---------|---------|
+| Claude Code | `%USERPROFILE%\.claude\skills\code-assistant-skill\` |
+| Codex | `%USERPROFILE%\.codex\skills\code-assistant-skill\` |
+| Cursor / OpenClaw | `%USERPROFILE%\.cursor\skills\code-assistant-skill\` |
+| Hermes / 其他 | 见各工具文档的 skills 目录 |
 
 1. 下载本仓库到本地
-2. 将整个 `code-assistant-skill` 文件夹复制到：
-   ```
-   %USERPROFILE%\.claude\skills\code-assistant-skill\
-   ```
-   即在 `C:\Users\你的用户名\.claude\skills\` 下创建一个名为 `code-assistant-skill` 的文件夹
-3. 将本仓库的所有文件放入该文件夹
-4. 重启 Claude Code，输入 `/code-assistant-skill` 即可激活
+2. 将整个 `code-assistant-skill` 文件夹复制到上表中对应 runtime 的路径
+3. 重启对应工具即可激活
 
-### 方式三：CLAUDE.md 注入（不需要 Skill 功能）
+### 方式三：作为 System Prompt 注入（不需要 Skill 功能）
 
-将 `SKILL.md` 的正文内容（去掉 YAML 头部的 `---` 块）复制到你工作目录的 `CLAUDE.md` 文件中。
+将 `SKILL.md` 的正文内容（去掉 YAML 头部的 `---` 块）或 `prompt-for-chat.md` 的完整内容复制到你使用的 AI 工具的 System Prompt / 自定义指令 / CLAUDE.md 中。
 
 ## 使用方式
 
-在 Claude Code 对话中输入：
+在对话中输入（Skill 会自动触发）：
 
 ```
 /code-assistant-skill 帮我把这个文件夹里所有 .txt 文件合并成一个 .csv
