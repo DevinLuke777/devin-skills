@@ -4,7 +4,7 @@
 
 ## 这是什么？
 
-`cross-border-ecommerce-advisor` 是一个 Claude Code Skill，为中国跨境卖家提供五大核心平台（Amazon、noon、Mercado Libre、Walmart、Takealot）及更多电商平台的**结构化运营决策支持**。覆盖选品、Listing优化、广告投放、物流履约、定价策略、税务合规、大促策略、跨平台协同等全链路。
+`cross-border-ecommerce-advisor` 是一个 Skill，为中国跨境卖家提供五大核心平台（Amazon、noon、Mercado Libre、Walmart、Takealot）及更多电商平台的**结构化运营决策支持**。覆盖选品、Listing优化、广告投放、物流履约、定价策略、税务合规、大促策略、跨平台协同等全链路。
 
 ## 适用场景
 
@@ -17,21 +17,21 @@
 
 ## 安装
 
-1. 将本文件夹放入 `.claude/skills/` 目录下：
+### 方式一：AI 助手安装
 
-```
-.claude/skills/
-├── cross-border-ecommerce-advisor/
-│   ├── SKILL.md
-│   ├── prompt-for-chat.md
-│   └── README.md
-```
+把以下内容发给你的 AI 编程助手即可：
 
-2. 重启 Claude Code 或重新加载 skills。
+> 帮我安装这个 skill：https://github.com/DevinLuke777/devin-skills 里的 `cross-border-ecommerce-advisor`
+
+### 方式二：手动安装
+
+1. 下载本仓库到本地
+2. 将 `cross-border-ecommerce-advisor` 整个文件夹复制到你使用的 AI 编程工具的 skills 目录下
+3. 重启工具即可生效
 
 ## 使用方式
 
-在 Claude Code 中直接表达需求即可触发，例如：
+在对话中直接表达需求即可自动触发，例如：
 
 - "我在 Walmart 美国站卖家居用品，怎么提升 Buy Box 占有率？"
 - "noon 沙特站和 Mercado Libre 墨西哥站，同一个品类先攻哪个？"
@@ -44,7 +44,7 @@ Skill 会自动先锁定平台与站点，再给出针对性分析。
 
 | 版本 | 文件 | 适用场景 |
 |------|------|----------|
-| **Skill 版** | `SKILL.md` | Claude Code 的 Skill 功能，工具化自动触发 |
+| **Skill 版** | `SKILL.md` | 编程助手 Skill 功能，自动触发 |
 | **Chat 版** | `prompt-for-chat.md` | ChatGPT / claude.ai / DeepSeek 等聊天 AI，作为 System Prompt 或首条消息使用 |
 
 ## 五大平台覆盖
@@ -68,3 +68,7 @@ Skill 会自动先锁定平台与站点，再给出针对性分析。
 ## 许可
 
 MIT License
+
+---
+
+[← 返回根目录](../README.md)
