@@ -1,6 +1,4 @@
-# Claude Code Skills
-
-我个人的Skill 集合。
+# 我个人的Skill 集合。
 
 ## 目录
 
