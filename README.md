@@ -1,6 +1,6 @@
 # Skills
 
-我个人编写和维护的 AI 编程助手 Skill 集合。
+我的Skill 集合。
 
 ## 目录
 
