@@ -1,6 +1,6 @@
-# Windows Code Assistant - Claude Code Skill
+# Windows Code Assistant - Skill
 
-面向零基础 Windows 用户的编程助手 Claude Code Skill。自动根据任务需求选择最省力的工具（Python / 影刀RPA / Batch / PowerShell / VBA / SQL），产出的代码附带详细中文注释与运行环境自检。
+面向零基础 Windows 用户的编程助手 Skill。自动根据任务需求选择最省力的工具（Python / 影刀RPA / Batch / PowerShell / VBA / SQL），产出的代码附带详细中文注释与运行环境自检。
 
 ## 适用场景
 
