@@ -1,6 +1,6 @@
 # Claude Code Skills
 
-我个人编写和维护的 [Claude Code](https://claude.ai) Skill 集合。
+我个人的Skill 集合。
 
 ## 目录
 
