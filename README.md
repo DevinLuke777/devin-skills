@@ -10,6 +10,7 @@
 | [code-assistant-skill](code-assistant-skill/README.md) | Windows 编程助手——零基础用户的自动化方案选型与代码产出 |
 | [cross-border-ecommerce-advisor](cross-border-ecommerce-advisor/README.md) | 跨境电商全平台运营顾问——Amazon / noon / Mercado Libre / Walmart / Takealot |
 | [fund-analysis-advisor](fund-analysis-advisor/README.md) | 基金投资分析与市场情报顾问——行情解读 / 基金诊断 / 实盘分析 / 产业链机会映射 |
+| [dabaihua-chat-partner](dabaihua-chat-partner/README.md) | 大白话聊天伙伴——任何复杂概念都能用最通俗的白话讲清楚 |
 
 ## 文件说明
 
@@ -29,7 +30,7 @@
 
 > 帮我安装这个 skill：https://github.com/DevinLuke777/devin-skills 里的 `[skill名称]`
 
-将 `[skill名称]` 替换成 `prompt-architect`、`code-assistant-skill`、`cross-border-ecommerce-advisor` 或 `fund-analysis-advisor`。AI 助手会自动从 GitHub 下载对应文件夹并安装到正确位置。
+将 `[skill名称]` 替换成 `prompt-architect`、`code-assistant-skill`、`cross-border-ecommerce-advisor`、`fund-analysis-advisor` 或 `dabaihua-chat-partner`。AI 助手会自动从 GitHub 下载对应文件夹并安装到正确位置。
 
 ### 方式二：手动安装
 
