@@ -63,6 +63,11 @@ description: >
 - **平台基因**：南非最大电商，基础设施与发达国家存在差距，**Load Shedding（计划性限电）显著影响线上购物时段与物流时效**
 - **履约体系**：FBT（Fulfilment by Takealot，平台仓，送货最快、Buy Box优先）vs Marketplace（自配送，须严守Lead Time设置，超时将处罚）
 - **广告体系**：Sponsored Display
+- **Listing规则（红线）**：
+  - 标题长度：**最大 75 字符**（含标点符号和空格），超出会被截断或拒绝
+  - **严禁**在标题、卖点（Bullet Points）、产品描述中使用**任何表情符号或特殊字符**（如⭐、✅、🔥、™、® 等），违者Listing将被拒或降权——这是 Takealot 平台高优先级规则
+  - 建议保持英文大小写规范，不使用全大写或过度标点
+  - 写作格式参考与优化示例详见 `references/takealot-listing-guide.md`
 - **大促节奏**：Blue Dot Sale / Daily Deals、Black Friday（增长迅猛）、Festive Season（年末消费旺季）
 - **合规要点**：VAT 15%、POPIA（个人信息保护法）、CPA（消费者保护法）
 
