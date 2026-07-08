@@ -15,19 +15,19 @@
 > AutoBrake System on Leash - The basic theory is similar as is found in the car seatbelt, but designed specifically for a dog that has not yet learned not to pull.
 
 **优化后标题（75字符内）**：
-> FIDA Auto-Brake Dog Leash 4m-5m - Shock Absorbing, Heavy Duty Retractable
+> Auto-Brake Dog Leash 4m-5m - Shock Absorbing, Heavy Duty Retractable
 
 **备选标题**：
 > Retractable Auto-Brake Dog Leash 5m - Heavy Duty Anti-Slip, 55-66 lbs
 
 ### 标题公式
 ```
-[品牌] [核心功能/产品名] [尺寸] - [1-2个核心卖点], [适配说明]
+[核心功能/产品名] [尺寸] - [1-2个核心卖点]
 ```
 
 ## 卖点（Bullet Points）结构参考
 
-使用 5 个 bullet point，每点 1-2 句，不超过 200 字符/点。
+使用 5-6 个 bullet point，每点 1-2 句，不超过 300 字符/点。
 
 ```
 BULLET 1 — 核心功能（Auto-Brake 技术）
@@ -42,8 +42,12 @@ Easy Roll-On and Roll-Off button controlled with your thumb. 360 tangle-free out
 BULLET 4 — 人体工学（握把/舒适度）
 Anti-slip soft grip handle provides comfortable control during long walks. Ergonomic design reduces hand fatigue.
 
-BULLET 5 — 适用场景/可选规格（结尾收尾）
-Available in 3 sizes: Small (5-12 kg / 5m), Medium (12-25 kg / 5m), Large (25-40 kg / 4m). Suitable for walking, jogging, hiking and daily use.
+BULLET 5 — 适用场景（结尾收尾）
+Suitable for walking, jogging, hiking and daily use.
+
+BULLET 6 — 规格参数（如用户提供规格时使用，没有则省略）
+[产品名/型号] | [尺寸/长度] | [承重范围] | [材质] | [颜色/其他参数]
+Example: Auto-Brake Dog Leash | 5m tape length | 25-40 kg capacity | ABS plastic + nylon tape | Black
 ```
 
 ## 原始例文的优化对照
