@@ -11,6 +11,7 @@
 | [cross-border-ecommerce-advisor](cross-border-ecommerce-advisor/README.md) | 跨境电商全平台运营顾问——Amazon / noon / Mercado Libre / Walmart / Takealot |
 | [fund-analysis-advisor](fund-analysis-advisor/README.md) | 基金投资分析与市场情报顾问——行情解读 / 基金诊断 / 实盘分析 / 产业链机会映射 |
 | [travel-planner](travel-planner/README.md) | 资深旅行规划师——行程规划 / 预算分配 / 避坑指南 / 出行前 checklist |
+| [multi-lang-translator](multi-lang-translator/README.md) | 通用语境自适应翻译器——多语言高保真翻译 / 地区变体适配 / 绝对零冗余 / 自动中文对照 |
 | [dabaihua-chat-partner](dabaihua-chat-partner/README.md) | 大白话聊天伙伴——任何复杂概念都能用最通俗的白话讲清楚 |
 
 ## 文件说明
