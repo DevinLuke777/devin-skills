@@ -9,9 +9,9 @@
 | 链接类型 | 字符限制 | 说明 |
 |----------|----------|------|
 | **传统链接标题**（Publicação clásica） | **≤ 60 字符**（含空格） | 常规在售 Listing 标题，超过会被截断/拒绝/降权 |
-| **目录链接标题**（Catálogo） | **≤ 200 字符** | 匹配平台目录产品时使用的长描述式标题 |
+| **目录链接标题**（Catálogo） | **≤ 200 字符（尽量用满）** | 匹配平台目录产品：核心词+同义词+卖点+属性尽量填满，覆盖更多搜索词、流量更大 |
 
-> **标题必须双版本输出**：凡是生成标题，必须同时给出「传统链接版（≤60 字符）」+「目录链接版（≤200 字符）」两个标题，并**分别附中文翻译**，供确认后选用。
+> **标题必须双版本输出**：凡是生成标题，必须同时给出「传统链接版（≤60 字符）」+「目录链接版（尽量用满 ≤200 字符）」两个标题，并**分别附中文翻译**，供确认后选用。**目录版不是短标题**——应把字符空间用足到接近上限，塞进越多相关性高的关键词/同义词/卖点，覆盖的搜索词越多、流量越大。
 
 ### 通用红线（两版均适用）
 
@@ -40,8 +40,8 @@
 >
 > **中文**：蓝牙耳机 TWS 5.3，充电仓款，IPX5 防水，续航 30 小时
 >
-> **目录链接标题**（≤200 字符 | Title Case）：
-> Fone De Ouvido Bluetooth TWS 5.3 Sem Fio Com Estuche De Carga Recarregável USB-C À Prova D'Água IPX5 Compatível Com Android E iPhone Preto
+> **目录链接标题**（尽量用满 ≤200 字符 | Title Case，示例 194 字符）：
+> Fone De Ouvido Bluetooth TWS 5.3 Sem Fio À Prova D'Água IPX5 Com Estuche De Carga Recarregável USB-C Controle Touch Redução De Ruído Até 30 Horas De Bateria Compatível Com Android E iPhone Preto
 >
 > **中文**：蓝牙耳机 TWS 5.3 无线，带 USB-C 可充电仓，IPX5 防水，兼容安卓与 iPhone，黑色
 
