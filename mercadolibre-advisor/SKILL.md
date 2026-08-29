@@ -34,7 +34,7 @@ description: >
   - **Standard（标准模式）**：卖家自选物流商发货并回填追踪号，须符合时效要求，适合尚未通过 Flex 门槛或大件商品。
 - **信誉体系**：**Reputação**（正/中/负评价 + 取消率 + 纠纷 + 延迟率）→ 绿色信誉（MercadoLíder 准入门槛）→ **MercadoLíder**（绿色信誉 + 销量/活跃度达标，享专属顾问、流量加权）→ Líder Gold / Líder Platinum（更高销量门槛）。信誉直接影响搜索排名、Buy Box（「Comprado」）与活动报名资格。
 - **Listing 类型**：**Premium**（高级版：支持更多免息分期期数、视频、自定义详情模板、更强曝光、Ad 资格）vs **Clásica**（经典版：基础功能）。同类目下 Premium 加权通常优于 Clásica。
-- **费用结构**：类目佣金（按类目 10%-20% 上下浮动）+ Full 履约费（如使用 Full，仓储+配送）。新卖家常享有首期免佣金/降佣扶持，具体以官方卖家中心（Mercado Livre 后台）实时费率为准。
+- **费用结构**：类目佣金（按类目 10%-20% 上下浮动）+ Full 履约费（如使用 Full，仓储+配送）。具体以官方卖家中心（Mercado Livre 后台）实时费率为准。
 - **广告体系**：**Mercado Ads**（Product Ads 按点击付费，出现在搜索与详情页），须用巴西葡语关键词；ACOS 优化为运营常驻课题。
 - **大促日历**：Black Friday（11 月底，年度最大）→ Cyber Monday（随后周一）→ Hot Sale（约 4-5 月）→ Dia das Mães 母亲节（5 月第 2 周日）→ Dia dos Namorados 情人节（**6 月 12 日**，巴西专属大促）→ Dia das Crianças 儿童节（**10 月 12 日**，玩具/电子强节点）→ Natal 圣诞（12 月）。
 - **合规要点**：跨境直发个人包裹走 **Remessa Conforme**（合规寄递计划：≤US$50 免关税、只缴 17% ICMS；US$50-3000 缴 60% 进口关税 + 17% ICMS；美客多为主要认证平台之一）；商业批量进口须 CNPJ + SISCOMEX 清关；产品认证 **ANATEL**（无线电/电信设备，如耳机、路由器、智能设备）、**INMETRO**（安全类，如电源、玩具）、《ANVISA»（化妆品/卫生用品）；数据隐私 **LGPD**；消费者 7 天无理由退货权（CDC）与平台「Compra Garantizada」买家保障机制。
@@ -46,7 +46,7 @@ description: >
 - **履约体系（Mercado Envíos）**：与巴西相同框架 —— **Full**（平台仓，显示「Llega en X días」Full 标）/ **Flex**（本地自配、Mercado Envíos 揽收，2-5 天）/ **Cross-docking**（跨境集货）/ **Standard**（卖家自主物流）。墨西哥 Full 仓群与时效承诺对转化影响显著。
 - **信誉体系**：**Reputación** → 绿色信誉 → **MercadoLíder**（绿信誉 + 销量动量 + 低取消低纠纷）→ **Líder Gold → Líder Platinum**（更高销量门槛，逐级解锁专属顾问/徽标/流量加权）。信誉不足时曝光与 Ad 资格受限。
 - **Listing 类型**：**Clásica vs Premium**（同样：Premium 支持免息分期、视频、自定模板、Ad 资格，曝光加权更高）。
-- **费用结构**：类目佣金（约 13%-24% 视类目）+ Full 履约费（如使用 Full，仓储+配送）。新卖家常有首单/首期佣金减免扶持，以官方后台实时费率为准。
+- **费用结构**：类目佣金（约 13%-24% 视类目）+ Full 履约费（如使用 Full，仓储+配送）。具体以官方后台实时费率为准。
 - **广告体系**：**Mercado Ads**（Product Ads），西语关键词投放，须区分墨西哥本地用词（见 references/mexico-listing-guide.md）。
 - **大促日历**：**Hot Sale**（5 月初-中，全国性电商节）→ **El Buen Fin**（11 月中旬周末，墨西哥版黑五，年度最大）→ **Cyber Monday** → Día de las Madres 母亲节（**5 月 10 日**，礼物刚需）→ Día del Niño（4 月 30 日）→ Regreso a Clases 返校季（8 月）→ Navidad 圣诞（12 月）。
 - **合规要点**：IVA **16%**（美客多作为平台对代扣/代收的角色 + 卖家自行申报义务）、RFC 税务登记（本地主体）、跨境卖家的**境内实体（SAPI de CV / RESICO 税制）vs 境外跨境模式**选择；产品认证 **NOM**（安全/能效类）、COFEPRIS（医疗/健康品）；数据隐私 **LFPDPPP**；消费者 7 天无理由退货权与平台买家保障。

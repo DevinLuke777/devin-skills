@@ -8,7 +8,7 @@
 
 | 项目 | 参考数值 / 机制 | 官方核对入口 |
 |------|----------------|--------------|
-| **平台佣金** | 按类目分档，区间约 10%–20%（同类目因商品/服务水平浮动）；新卖家常享首期减免 | 卖家中心 Sales & Fees / Níveis de comissão（Look-and-feel 后台实时费率）|
+| **平台佣金** | 按类目分档，区间约 10%–20%（同类目因商品/服务水平浮动） | 卖家中心 Sales & Fees / Níveis de comissão（Look-and-feel 后台实时费率）|
 | **Full 履约费** | 仓储 + 配送（按体积/重量分档） | Mercado Envíos Full 费率页 |
 | **跨境直发税率（Remessa Conforme）** | ≤US$50：免关税，仅 17% ICMS；US$50–3000：60% 进口关税 + 17% ICMS | 巴西 Receita Federal（联邦税务局）关于 Remessa Conforme 的官方公告 |
 | **商业批量进口** | 需 CNPJ + SISCOMEX 清关，按 HS 编码计关税/I P I/ICMS | SISCOMEX / 巴西海关 |
