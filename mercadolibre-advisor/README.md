@@ -73,6 +73,7 @@ Skill 会自动先锁定巴西站/墨西哥站，再给出针对性分析。
 | `references/mercado-ads-playbook.md` | Mercado Ads 实操（新品冷启动、大促节奏、ACOS 优化、后台复盘） |
 | `references/reduction-cancellation-returns.md` | 双站跨境降取消/退货率专项 |
 | `references/keyword-embedding-guide.md` | 关键词埋词实战指南（挖词 / 分类 / 位置分配 / 双站红线 / 案例） |
+| `references/keyword-localization-matching.md` | 关键词本地化匹配规则（去重音 + 单复数归一 + 找出漏掉的高流量词） |
 
 ## 许可
 
