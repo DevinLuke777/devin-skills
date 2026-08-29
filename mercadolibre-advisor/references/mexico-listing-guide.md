@@ -97,7 +97,65 @@ BULLET 5 — 规格参数
 Audífonos Bluetooth TWS 5.3 | 30h batería | IPX5 | USB-C | Negro
 ```
 
-## 三、图片与属性规范
+## 三、描述输出格式规范（统一规则）
+
+### 1. 章节小标题
+- 用**全大写字母**（如 `DESTAQUES DEL PRODUCTO` / `ESPECIFICACIONES`）。
+- 后接冒号 `:`、换行，**紧接第一段 / 第一项（不空行）**。
+
+### 2. 分隔规则（统一适用所有章节）
+
+| 位置 | 分隔方式 |
+|------|----------|
+| 章节标题 → 首段 / 首项 | `:` + 换行（**紧接，不空行**） |
+| 章节内并列要点 / 项 / 段落之间 | **空行**（软列表视觉） |
+| 章节与下一章节之间 | **空行** |
+
+> **为什么章节内并列项要空行**：在墨西哥站 Listing 描述中，并列卖点、规格项、清单条目之间空行是当地消费者的视觉习惯，便于扫读每一条；空行就是"软列表"的实际呈现方式。
+
+### 3. 内容要求
+- 每段直接以**首词字母**开始，**禁止任何前缀装饰**：
+  - 不写 `-`、`•`、`*`、`>`（引用块）、`|`、`│`、`┃`、`▌`、`▍` 等装饰 / 列表 / 引用 / 表格 / 竖线符号
+  - 不写编号前缀（`1.`、`1、`、`①`）
+  - 不写 `BULLET n —` 标注
+- 仅用字母、数字与常规标点（`:`、`,`、`.`、`()`、`/`）。
+- 不写 emoji 与特殊符号（`★ ✅ ⚠️ ™ ®` 等）。
+- 不写平台禁词（`barato / mejor / gratis / envío gratis` 等）。
+- 用**墨西哥西语**（不是西班牙本土西语），符合墨西哥消费者用词习惯（参考本指南"本地用词对照"）。
+
+### 4. 排版示例（墨西哥西语）
+
+```
+NOMBRE DEL PRODUCTO EN MAYÚSCULAS:
+Descripción introductoria en un único párrafo, sin marcadores decorativos.
+
+DESTACADOS DEL PRODUCTO:
+Primer destacado: beneficio principal en una frase.
+Segundo destacado: beneficio técnico o funcional.
+Tercer destacado: diferencial competitivo en una frase.
+
+ESPECIFICACIONES:
+Material: PVC y acero.
+Dimensiones: 60 cm x 30 cm x 16 cm.
+Tipo de apertura: Cremallera bidireccional y tapa flip.
+
+CONTENIDO DEL PAQUETE:
+Artículo 1 incluido.
+Artículo 2 incluido.
+
+DÓNDE USAR:
+Aplicaciones y contextos de uso en un único párrafo.
+
+OBSERVACIONES:
+Observación 1 en una frase.
+Observación 2 en una frase.
+```
+
+### 5. 修复原文笔误 / 截断
+- 原文若出现明显截断（如 `es id,`）或重复用词，按原意补完并消重。
+- 不擅自大幅改写用户原文，保留其信息完整性；只修格式与显而易见的笔误。
+
+## 四、图片与属性规范
 
 - **首图**：白底/纯色背景产品全景图，≥ **800px**（建议 1080×1080+），**无水印、无促销文字、无边框文字**。
 - **最多 12 张**：正面/背面/细节/尺寸/场景/包装。
