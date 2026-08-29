@@ -63,8 +63,8 @@ Skill 会自动先锁定巴西站/墨西哥站，再给出针对性分析。
 | `SKILL.md` | Skill 主体（工具版），含巴西/墨西哥双站点深度知识与六步工作流 |
 | `prompt-for-chat.md` | Chat 版（角色版），可复制到各类聊天 AI 中直接使用 |
 | `README.md` | 本文件，项目说明 |
-| `references/brazil-listing-guide.md` | 巴西站 Listing 写作参考（葡语，含本地用词对照） |
-| `references/mexico-listing-guide.md` | 墨西哥站 Listing 写作参考（西语，含本地用词对照） |
+| `references/brazil-listing-guide.md` | 巴西站 Listing 写作参考（葡语，含本地用词对照 + 描述输出格式规范 + FAQ 品类候选库） |
+| `references/mexico-listing-guide.md` | 墨西哥站 Listing 写作参考（西语，含本地用词对照 + 描述输出格式规范 + FAQ 品类候选库） |
 | `references/brazil-market-knowledge.md` | 巴西站深度市场知识（支付/履约/信誉/合规/大促） |
 | `references/mexico-market-knowledge.md` | 墨西哥站深度市场知识（支付/履约/信誉/合规/大促） |
 | `references/site-comparison.md` | 双站点核心差异速查表（含跨站协同建议） |

@@ -185,6 +185,7 @@ Observação 2 em uma frase.
 | 6 | POR QUE ESCOLHER / 信任元素 | 品牌背书等 | 可选 |
 | 7 | ESPECIFICAÇÕES | 规格清单 | 必出 |
 | 8 | OBSERVAÇÕES / 注意事项 | 尺寸误差、颜色差异、清洁方法等 | 必出 |
+| 9 | DÚVIDAS FREQUENTES / PREGUNTAS FRECUENTES | FAQ 自问自答（5-7 条） | 推荐 |
 
 特殊品类可增删章节（如服装加 "GUIA DE TAMANHOS" 尺寸指南），但不重复核心结构。
 
@@ -203,6 +204,115 @@ Observação 2 em uma frase.
 - 如果清单非常简单（仅 1-2 项），可**取消独立的 #3 O QUE VOCÊ RECEBE 章节**，把"包含什么"作为 DESTAQUES 的最后一条
 - 例：`Inclui: 1 cesta de pão + 1 tampa de acrílico (escolha o tamanho na variação).`
 - 但**多数情况下清单单独一章更好**（特别是多件物品、复杂配件产品）
+
+### 7. FAQ 自问自答章节（推荐但可选）
+
+> AI 自动生成 FAQ 是 Listing 优化的高级动作——降低售前咨询、增强信任、覆盖长尾搜索词、提升转化。
+
+#### 7.1 章节结构
+- **章节名**：`DÚVIDAS FREQUENTES`
+- **位置**：作为 #9 推荐章节（在 OBSERVAÇÕES 之后）
+- **格式**：每条问答独立成段（空行分隔），问句在前、答句在后
+- **条数**：5-7 条（不超 7，避免冗长）
+- **答案长度**：1-2 句，不要过长
+- **关键词自然融入**：问答里重复产品名 + 关键属性（有助于长尾搜索覆盖）
+
+#### 7.2 AI 自动生成 FAQ 的流程（强约束）
+
+**Step 1 — 识别产品品类**
+从用户给的品名 / 类目 / 已写好的 DESTAQUES + ESPECIFICAÇÕES 中，识别品类（家居收纳 / 纺织鞋类 / 3C 电子 / 美妆 / 宠物用品 / 运动户外 / 玩具 / 家具等）。
+
+**Step 2 — 从候选库匹配**
+按识别出的品类，从"7.3 品类 FAQ 候选库"中拉 5-7 个最相关的问题。
+
+**Step 3 — 用产品属性微调措辞**
+根据产品具体属性（材质 / 尺寸 / 功能）调整问题措辞和答案细节：
+- 例（珠宝盒）：通用"材质安全吗？" → "O material pode arranhar as joias?"，答案点出"tecido aveludado anti-risco"
+- 例（乒乓球套装）：通用"可以旅行吗？" → "Pode levar para viagem ou festa?"，答案点出"bolsa de armazenamento inclusa"
+
+**Step 4 — 选 5-7 条输出 + 去重 / 删除无关**
+不是全选——选对买家最有决策影响的问题。删除：
+- 与产品无关的候选问题
+- 答案与 DESTAQUES / ESPECIFICAÇÕES 重复的
+- 太显然的（无需问的）
+
+#### 7.3 品类 FAQ 候选库（精选常用，🇧🇷 巴西葡语）
+
+**家居收纳**（caixa organizadora / cesta / porta-trecos / porta-joias）：
+- As dimensões servem para o que?（具体空间）
+- O material é durável e fácil de limpar?
+- É impermeável / resistente à umidade?
+- Qual a capacidade? Quantos itens cabem?
+- É fácil de montar / desmontar?
+- A cor é igual à da imagem?
+
+**纺织 / 服装 / 鞋类**：
+- A numeração é grande ou pequena? Tem tabela?
+- De que material é? Encolhe?
+- Serve para pele sensível / alérgica?
+- Pode lavar na máquina? Como cuidar?
+- A cor é fiel à imagem?
+- Tem estoque? Quando envia?
+
+**3C 电子 / 配件**：
+- É compatível com quais aparelhos / sistemas?
+- Preciso comprar acessórios / pilhas à parte?
+- Qual a autonomia / tempo de carga?
+- É resistente à água / queda?
+- Tem garantia? Por quanto tempo?
+
+**美妆 / 个人护理**：
+- Serve para pele sensível?
+- Qual o prazo de validade?
+- Contém XX ingrediente? Causa alergia?
+- Serve para homens ou mulheres?
+- Tamanho de amostra vs tamanho real?
+- Modo de uso / quantidade recomendada?
+
+**宠物用品**：
+- Serve para qual porte / raça de animal?
+- O material é seguro para o animal?
+- Tamanho / capacidade adequado?
+- Fácil de limpar? Anti-odor?
+- Durável? Aguenta XX kg?
+
+**运动 / 户外**：
+- É impermeável / resistente ao vento?
+- Serve para qual atividade / clima?
+- Durabilidade? Aguenta XX kg?
+- É respirável? Serve para verão?
+- Dobra? Fácil de guardar / transportar?
+
+**玩具 / 游戏**：
+- Para qual idade é indicado?
+- Material seguro para crianças?
+- Precisa montar? É difícil?
+- O que vem na embalagem?
+- Tem garantia?
+
+**家具 / 收纳 / 大件**：
+- Precisa montar? Ferramentas inclusas?
+- Aguenta quanto peso (kg)?
+- Dimensões são fiéis à imagem?
+- Cor / material confere com a foto?
+- Nível de dificuldade de montagem?
+- Tem garantia?
+
+**珠宝盒 / 首饰盒**：
+- O material pode arranhar as joias?
+- A tranca é segura?
+- As divisórias são removíveis?
+- Pode levar em viagem?
+- A cor é igual à da imagem?
+- Como cuidar?
+
+#### 7.4 注意事项
+
+- ❌ 不写"诱饵问题"——不主动暴露明显弱点
+- ✅ 问题用自然葡语（不是直译英文）
+- ✅ 关键词自然融入（产品名 + 关键属性）
+- ✅ 答案简洁（1-2 句），不重复 DESTAQUES / ESPECIFICAÇÕES 的内容
+- ✅ 优先选对买家决策最有影响的问题（材质安全 / 适配性 / 运输 / 保修 等）
 
 ## 四、图片与属性规范
 
