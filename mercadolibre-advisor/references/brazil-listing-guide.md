@@ -153,6 +153,57 @@ Observação 2 em uma frase.
 - 原文若出现明显截断（如 `é id,`）或重复用词（如 `sapatos` 多次连用），按原意补完并消重。
 - 不擅自大幅改写用户原文，保留其信息完整性；只修格式与显而易见的笔误。
 
+### 6. 章节顺序与结构规范（6 条强制规则）
+
+为了让 Listing 描述稳定一致，输出必须遵循以下 6 条规则：
+
+#### 规则 1 — 规格类章节必须每项独立成段（空行分隔）
+- 适用于 `ESPECIFICAÇÕES` / `CONTEÚDO DA EMBALAGEM` 等"项: 值"列表
+- 每项独立成段，项间空行分隔
+- **禁止** 用句号 `.` 把多项串接成一段（如 `Cor: marrom. Material: PP. ...` ❌）
+
+#### 规则 2 — 章节去重原则
+- 当 `DESTAQUES DO PRODUTO` 已列出某要点的概括版，后面不要用同名/同主题章节重讲详版
+- 二选一处理：删详版章节（保留 DESTAQUES 概括）或删 DESTAQUES 中重复的条目（保留详版）
+- 常见去重对：
+  - `O QUE VOCÊ RECEBE` vs `CONTEÚDO DA EMBALAGEM`（二选一，不重复）
+  - `DESTAQUES` 中已概括的卖点 vs 后面 `核心功能详解` 章节
+
+#### 规则 3 — 主标题格式
+- 主标题 + " - " + 副标题 + ":"，例如 `KIT COMPLETO DE PING PONG - DIVIRTA-SE EM QUALQUER MESA:`
+- **禁止** 用 `:` 分隔主副标题（如 `CESTA...: CHARME...` ❌）
+
+#### 规则 4 — 标准章节顺序（8 个章节按序排列）
+
+| # | 章节 | 性质 | 是否必出 |
+|---|------|------|---------|
+| 1 | 主标题 + 副标题 + 引子段 | 引导 | 必出 |
+| 2 | DESTAQUES DO PRODUTO | 核心卖点 4-6 条 | 必出 |
+| 3 | O QUE VOCÊ RECEBE / CONTEÚDO DA EMBALAGEM | 包装清单（二选一） | 必出 |
+| 4 | 核心功能 / 设计亮点章节（可多个） | 按产品功能拆解 | 按需 |
+| 5 | USO VERSÁTIL / ONDE USAR | 使用场景 | 必出 |
+| 6 | POR QUE ESCOLHER / 信任元素 | 品牌背书等 | 可选 |
+| 7 | ESPECIFICAÇÕES | 规格清单 | 必出 |
+| 8 | OBSERVAÇÕES / 注意事项 | 尺寸误差、颜色差异、清洁方法等 | 必出 |
+
+特殊品类可增删章节（如服装加 "GUIA DE TAMANHOS" 尺寸指南），但不重复核心结构。
+
+#### 规则 5 — #3 vs #7 职责分工（防止内容重叠）
+
+| 章节 | 唯一职责 | 内容 |
+|------|---------|------|
+| **#3 O QUE VOCÊ RECEBE / CONTEÚDO DA EMBALAGEM** | 清单 + 数量 | "盒子里**有什么**、**多少件**"（如 `2 raquetes, 6 bolinhas, 1 rede, 1 bolsa`） |
+| **#7 ESPECIFICAÇÕES** | 技术规格 | "产品的**规格参数**"（材质、尺寸、重量、颜色、技术认证等） |
+
+**禁止**：
+- 在 #3 写尺寸、材质、颜色等规格信息（这些属于 #7）
+- 在 #7 写"2 raquetes, 6 bolinhas"等物品清单（这些属于 #3）
+
+#### 规则 6 — 清单简略时可并入 DESTAQUES 末条（可选优化）
+- 如果清单非常简单（仅 1-2 项），可**取消独立的 #3 O QUE VOCÊ RECEBE 章节**，把"包含什么"作为 DESTAQUES 的最后一条
+- 例：`Inclui: 1 cesta de pão + 1 tampa de acrílico (escolha o tamanho na variação).`
+- 但**多数情况下清单单独一章更好**（特别是多件物品、复杂配件产品）
+
 ## 四、图片与属性规范
 
 - **首图**：白底或纯色背景产品全景图，≥ **800px**（建议 **1200×1200+**），**无水印、无促销文字、无边框文字**。
