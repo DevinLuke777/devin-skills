@@ -11,46 +11,12 @@
 
 ## Background
 
-### 巴西站（MLB）— Mercado Livre Brasil
-- **站点标签**：🇧🇷 **语言**：巴西葡萄牙语，**货币**：BRL（R$）
-- **平台基因**：美客多全球最大市场、拉美最大电商。价格敏感、**分期购买（parcelamento）为刚需**、移动端 App 购物占比极高。
-- **支付生态**：**Pix**（巴西央行即时支付，免手续费、秒到账，已为主流支付方式）为核心，另支持 Mercado Pago 信用卡/借记卡、Boleto 等。
-- **履约体系（Mercado Envíos）**：
-  - **Full（平台仓，类FBA）**：货入 Mercado Livre 仓库，平台负责仓储/打包/配送/退换，解锁 Full 标识与时效承诺，排名加权最高、转化最优。
-  - **Flex（本地自配+上门揽收）**：货在卖家手里，订单产生后平台上门揽收配送，2-5 天达，免入仓。
-  - **Cross-docking（集货转运）**：大批量从中国头程到指定区域集货枢纽，平台分拨配送，适合跨境规模化铺货。
-  - **Standard（标准模式）**：卖家自选物流商发货并回填追踪号。
-- **信誉体系**：**Reputação**（评价+取消率+纠纷+延迟）→ 绿色信誉 → **MercadoLíder** → **Líder Gold / Líder Platinum**（更高销量门槛）。信誉直接影响搜索排名、Buy Box 与活动报名。
-- **Listing 类型**：**Premium**（支持更多免息分期期数、视频、自定模板、更强曝光、Ad 资格）vs **Clásica**（基础功能）。
-- **费用结构**：类目佣金 + Full 履约费（如使用 Full，仓储+配送）；具体以官方后台实时费率为准。
-- **广告体系**：**Mercado Ads**（Product Ads 按点击付费），葡语关键词，ACOS 优化。
-- **大促日历**：Black Friday（11月底）→ Cyber Monday → Hot Sale（4-5月）→ Dia das Mães（5月第2周日）→ **Dia dos Namorados（6/12，巴西专属情人节大促）** → **Dia das Crianças（10/12，玩具/电子强节点）** → Natal（12月）。
-- **合规要点**：跨境直发走 **Remessa Conforme**（≤US$50 免关税、只缴 17% ICMS；US$50-3000 缴 60% 进口关税 + 17% ICMS）；商业批量进口须 CNPJ + SISCOMEX；认证 **ANATEL**（无线电/电信设备）、**INMETRO**（安全类）、**ANVISA**（化妆品/卫生用品）；数据隐私 **LGPD**；消费者 7 天无理由退货权（CDC）。
-
-### 墨西哥站（MLM）— Mercado Libre México
-- **站点标签**：🇲🇽 **语言**：墨西哥西班牙语，**货币**：MXN（$）
-- **平台基因**：墨西哥最大电商。价格敏感、**meses sin intereses（免息分期）为刚需**、大量消费者用 OXXO 现金支付。
-- **支付生态**：Mercado Pago 主导，支持**免息分期（3/6/9/12/18 个月）**、OXXO 现金、借记卡、信用卡、钱包。
-- **履约体系（Mercado Envíos）**：与巴西同框架 —— **Full**（平台仓，显示「Llega en X días」）/ **Flex** / **Cross-docking** / **Standard**。
-- **信誉体系**：**Reputación** → 绿色信誉 → **MercadoLíder** → **Líder Gold → Líder Platinum**。
-- **Listing 类型**：**Clásica vs Premium**（Premium 支持免息分期、视频、自定模板、Ad 资格，曝光加权更高）。
-- **费用结构**：类目佣金 + Full 履约费（如使用 Full，仓储+配送）；具体以官方后台实时费率为准。
-- **广告体系**：**Mercado Ads**（Product Ads），西语关键词，须区分墨西哥本地用词。
-- **大促日历**：**Hot Sale（5月初-中）** → **El Buen Fin（11月中旬周末，年度最大）** → Cyber Monday → Día de las Madres（**5/10**）→ Día del Niño（4/30）→ Regreso a Clases（8月）→ Navidad（12月）。
-- **合规要点**：IVA **16%**、RFC 税务登记、本地主体（SAPI de CV / RESICO）vs 跨境模式选择；认证 **NOM**（安全/能效类）、**COFEPRIS**（医疗/健康品）；数据隐私 **LFPDPPP**；消费者 7 天无理由退货权。
-
-### 双站点核心差异速查表
-| 维度 | 🇧🇷 巴西站（MLB） | 🇲🇽 墨西哥站（MLM） |
-|------|------------------|--------------------|
-| **语言** | 巴西葡萄牙语 | 墨西哥西班牙语 |
-| **货币** | BRL（R$） | MXN（$） |
-| **支付主流** | **Pix**（即时、免手续费） | 信用卡+免息分期、OXXO 现金 |
-| **分期刚需** | parcelamento 分期 | **meses sin intereses 免息分期**（期数更多） |
-| **年度最大节点** | Black Friday（11月底） | El Buen Fin（11月中旬周末） |
-| **专属大促** | Dia dos Namorados（6/12）、Dia das Crianças（10/12） | Hot Sale（5月）、Día del Niño（4/30） |
-| **跨境合规** | **Remessa Conforme**（17% ICMS + ≤50 美元关税豁免） | IVA 16%、RFC、NOM |
-| **产品认证重点** | ANATEL / INMETRO / ANVISA | NOM / COFEPRIS |
-| **数据隐私法** | LGPD | LFPDPPP |
+- **服务对象**：中国跨境卖家，熟悉中文，运营范围可能覆盖单一站点或双站点。
+- **核心覆盖**：美客多（Mercado Libre）两大核心站点：
+  - 🇧🇷 **巴西站**（MLB，巴西葡萄牙语）—— 见 `references/brazil-market-knowledge.md`
+  - 🇲🇽 **墨西哥站**（MLM，墨西哥西班牙语）—— 见 `references/mexico-market-knowledge.md`
+- **双站点核心差异速查**：见 `references/site-comparison.md`
+- **其他美客多站点**（阿根廷 / 智利 / 哥伦比亚等）：拥有结构化分析框架，但**必须主动追问并核实该站点的具体机制**，不套用巴西 / 墨西哥经验硬套。
 
 ## Goals
 1. **双站点决策支持（最高优先级）**：为卖家提供数据驱动、贴合巴西/墨西哥本土实际的运营建议，覆盖选品、定价、Listing、广告、物流履约、大促、合规全链路。

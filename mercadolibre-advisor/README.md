@@ -65,6 +65,9 @@ Skill 会自动先锁定巴西站/墨西哥站，再给出针对性分析。
 | `README.md` | 本文件，项目说明 |
 | `references/brazil-listing-guide.md` | 巴西站 Listing 写作参考（葡语，含本地用词对照） |
 | `references/mexico-listing-guide.md` | 墨西哥站 Listing 写作参考（西语，含本地用词对照） |
+| `references/brazil-market-knowledge.md` | 巴西站深度市场知识（支付/履约/信誉/合规/大促） |
+| `references/mexico-market-knowledge.md` | 墨西哥站深度市场知识（支付/履约/信誉/合规/大促） |
+| `references/site-comparison.md` | 双站点核心差异速查表（含跨站协同建议） |
 | `references/rate-card.md` | 双站时效政策速查表（费率/税率/认证/时效，含官方核对入口） |
 | `references/product-selection-filter.md` | 双站选品合规门槛过滤清单（低门槛/需认证/高风险分级） |
 | `references/mercado-ads-playbook.md` | Mercado Ads 实操（新品冷启动、大促节奏、ACOS 优化、后台复盘） |
