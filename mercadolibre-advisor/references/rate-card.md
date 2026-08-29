@@ -9,7 +9,7 @@
 | 项目 | 参考数值 / 机制 | 官方核对入口 |
 |------|----------------|--------------|
 | **平台佣金** | 按类目分档，区间约 10%–20%（同类目因商品/服务水平浮动） | 卖家中心 Sales & Fees / Níveis de comissão（Look-and-feel 后台实时费率）|
-| **Full 履约费** | 仓储 + 配送（按体积/重量分档） | Mercado Envíos Full 费率页 |
+| **Full 履约费** | 仓储 + 配送（按体积/重量分档）；**不按卖家信誉颜色分级**（所有信誉等级费率相同） | [Custos de envio, reputação verde e Mercado Líder — Mercado Livre](https://www.mercadolivre.com.br/knowledge-hub/custos-envio-reputacao-verde-mercado-lider_40538) |
 | **跨境直发税率（Remessa Conforme）** | ≤US$50：免关税，仅 17% ICMS；US$50–3000：60% 进口关税 + 17% ICMS | 巴西 Receita Federal（联邦税务局）关于 Remessa Conforme 的官方公告 |
 | **商业批量进口** | 需 CNPJ + SISCOMEX 清关，按 HS 编码计关税/I P I/ICMS | SISCOMEX / 巴西海关 |
 | **平台代收税** | Mercado Livre 作为 Remessa Conforme 平台，对跨境包裹代收 ICMS/关税 | 卖家中心税务设置 |
@@ -22,7 +22,7 @@
 | 项目 | 参考数值 / 机制 | 官方核对入口 |
 |------|----------------|--------------|
 | **平台佣金** | 按类目分档，区间约 13%–24%（视类目） | 卖家中心 / Comisiones y tarifas |
-| **Full 履约费** | 仓储 + 配送（按体积/重量分档） | Mercado Envíos Full 费率页 |
+| **Full 履约费** | 仓储 + 配送（按体积/重量分档）；**按卖家信誉颜色分级**（本表仅列**绿色信誉**等级，墨西哥站卖家绝大多数为绿色） | [Costos de envío, reputación verde y Mercado Líder — Mercado Libre](https://www.mercadolibre.com.mx/ayuda/40538) |
 | **增值税** | IVA 16%（平台代收角色 + 卖家申报义务并存） | SAT（墨西哥税务署）IVA 页面 |
 | **税务登记** | 本地主体需 RFC；跨境/本地模式（SAPI de CV / RESICO）选择 | SAT / 平台税务设置 |
 | **产品认证** | NOM（安全/能效类）、COFEPRIS（医疗/健康品清单） | NOM 官网 / COFEPRIS 官网 |
