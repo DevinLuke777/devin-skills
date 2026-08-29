@@ -72,6 +72,7 @@ Skill 会自动先锁定巴西站/墨西哥站，再给出针对性分析。
 | `references/product-selection-filter.md` | 双站选品合规门槛过滤清单（低门槛/需认证/高风险分级） |
 | `references/mercado-ads-playbook.md` | Mercado Ads 实操（新品冷启动、大促节奏、ACOS 优化、后台复盘） |
 | `references/reduction-cancellation-returns.md` | 双站跨境降取消/退货率专项 |
+| `references/keyword-embedding-guide.md` | 关键词埋词实战指南（挖词 / 分类 / 位置分配 / 双站红线 / 案例） |
 
 ## 许可
 
