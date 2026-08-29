@@ -9,9 +9,7 @@
 | 项目 | 参考数值 / 机制 | 官方核对入口 |
 |------|----------------|--------------|
 | **平台佣金** | 按类目分档，区间约 10%–20%（同类目因商品/服务水平浮动）；新卖家常享首期减免 | 卖家中心 Sales & Fees / Níveis de comissão（Look-and-feel 后台实时费率）|
-| **固定单笔费（tarifa fija）** | **已取消**，当前不收取 | 卖家中心费用明细 |
-| **分期成本（卖家端）** | **已取消**：买家免息分期（parcelamento sem juros）由平台 / Premium 模式承担，卖家不再按期数缴纳分期费率 | 卖家中心 Planilha de vendas / 费率页 |
-| **Full 履约费** | 仓储(按月/体积)+包装+配送，按体积/重量分档 | Mercado Envíos Full 费率页 |
+| **Full 履约费** | 仓储 + 配送（按体积/重量分档） | Mercado Envíos Full 费率页 |
 | **跨境直发税率（Remessa Conforme）** | ≤US$50：免关税，仅 17% ICMS；US$50–3000：60% 进口关税 + 17% ICMS | 巴西 Receita Federal（联邦税务局）关于 Remessa Conforme 的官方公告 |
 | **商业批量进口** | 需 CNPJ + SISCOMEX 清关，按 HS 编码计关税/I P I/ICMS | SISCOMEX / 巴西海关 |
 | **平台代收税** | Mercado Livre 作为 Remessa Conforme 平台，对跨境包裹代收 ICMS/关税 | 卖家中心税务设置 |
@@ -24,9 +22,7 @@
 | 项目 | 参考数值 / 机制 | 官方核对入口 |
 |------|----------------|--------------|
 | **平台佣金** | 按类目分档，区间约 13%–24%（视类目） | 卖家中心 / Comisiones y tarifas |
-| **固定单笔费** | **已取消**，当前不收取 | 卖家中心费用明细 |
-| **免息分期成本（卖家端）** | **已取消**：买家 meses sin intereses（3/6/9/12/18）由平台 / Premium 模式承担，卖家不按期数缴纳分期费率 | 卖家中心费率页 |
-| **Full 履约费** | 仓储+包装+配送，按体积/重量分档 | Mercado Envíos Full 费率页 |
+| **Full 履约费** | 仓储 + 配送（按体积/重量分档） | Mercado Envíos Full 费率页 |
 | **增值税** | IVA 16%（平台代收角色 + 卖家申报义务并存） | SAT（墨西哥税务署）IVA 页面 |
 | **税务登记** | 本地主体需 RFC；跨境/本地模式（SAPI de CV / RESICO）选择 | SAT / 平台税务设置 |
 | **产品认证** | NOM（安全/能效类）、COFEPRIS（医疗/健康品清单） | NOM 官网 / COFEPRIS 官网 |

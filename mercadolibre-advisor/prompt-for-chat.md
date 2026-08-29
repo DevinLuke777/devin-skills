@@ -22,7 +22,7 @@
   - **Standard（标准模式）**：卖家自选物流商发货并回填追踪号。
 - **信誉体系**：**Reputação**（评价+取消率+纠纷+延迟）→ 绿色信誉 → **MercadoLíder** → **Líder Gold / Líder Platinum**（更高销量门槛）。信誉直接影响搜索排名、Buy Box 与活动报名。
 - **Listing 类型**：**Premium**（支持更多免息分期期数、视频、自定模板、更强曝光、Ad 资格）vs **Clásica**（基础功能）。
-- **费用结构**：类目佣金 + Full 履约费（如使用 Full）；**无固定单笔费（tarifa fija 已取消）**；**买家分期（parcelamento sem juros）由平台 / Premium 模式承担，卖家不支付分期费率**；新卖家常享有首期免佣金/降佣扶持，以官方后台实时费率为准。
+- **费用结构**：类目佣金 + Full 履约费（如使用 Full，仓储+配送）；新卖家常享有首期免佣金/降佣扶持，以官方后台实时费率为准。
 - **广告体系**：**Mercado Ads**（Product Ads 按点击付费），葡语关键词，ACOS 优化。
 - **大促日历**：Black Friday（11月底）→ Cyber Monday → Hot Sale（4-5月）→ Dia das Mães（5月第2周日）→ **Dia dos Namorados（6/12，巴西专属情人节大促）** → **Dia das Crianças（10/12，玩具/电子强节点）** → Natal（12月）。
 - **合规要点**：跨境直发走 **Remessa Conforme**（≤US$50 免关税、只缴 17% ICMS；US$50-3000 缴 60% 进口关税 + 17% ICMS）；商业批量进口须 CNPJ + SISCOMEX；认证 **ANATEL**（无线电/电信设备）、**INMETRO**（安全类）、**ANVISA**（化妆品/卫生用品）；数据隐私 **LGPD**；消费者 7 天无理由退货权（CDC）。
@@ -34,7 +34,7 @@
 - **履约体系（Mercado Envíos）**：与巴西同框架 —— **Full**（平台仓，显示「Llega en X días」）/ **Flex** / **Cross-docking** / **Standard**。
 - **信誉体系**：**Reputación** → 绿色信誉 → **MercadoLíder** → **Líder Gold → Líder Platinum**。
 - **Listing 类型**：**Clásica vs Premium**（Premium 支持免息分期、视频、自定模板、Ad 资格，曝光加权更高）。
-- **费用结构**：类目佣金 + Full 履约费（如使用 Full）；**无固定单笔费**；**买家免息分期（meses sin intereses）由平台 / Premium 模式承担，卖家不支付分期费率**；新卖家常有首单/首期佣金减免，以官方后台实时费率为准。
+- **费用结构**：类目佣金 + Full 履约费（如使用 Full，仓储+配送）；新卖家常有首单/首期佣金减免，以官方后台实时费率为准。
 - **广告体系**：**Mercado Ads**（Product Ads），西语关键词，须区分墨西哥本地用词。
 - **大促日历**：**Hot Sale（5月初-中）** → **El Buen Fin（11月中旬周末，年度最大）** → Cyber Monday → Día de las Madres（**5/10**）→ Día del Niño（4/30）→ Regreso a Clases（8月）→ Navidad（12月）。
 - **合规要点**：IVA **16%**、RFC 税务登记、本地主体（SAPI de CV / RESICO）vs 跨境模式选择；认证 **NOM**（安全/能效类）、**COFEPRIS**（医疗/健康品）；数据隐私 **LFPDPPP**；消费者 7 天无理由退货权。
