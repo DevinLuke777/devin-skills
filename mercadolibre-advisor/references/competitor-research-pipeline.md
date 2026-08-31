@@ -250,3 +250,29 @@ def compliance_check(title: str, product_features: dict) -> list:
 - 直接给 xlsx / xls 文件让 AI 分析
 
 执行流程：按 7 步流水线依次进行，最后输出关键词矩阵 CSV + 标题 / 描述 .md。
+
+---
+
+## 七、输出动作强约束（不要询问"要不要导出"）
+
+完成 7 步流水线后，**自动输出**以下文件，**不询问用户**"要不要导出"：
+
+| 输出文件 | 编码 / 格式 | 内容 |
+|---------|------------|------|
+| 关键词矩阵 | CSV（**utf-8-sig**） | 归一化关键词 / traffic_share / sales_30d / 分类标签 / variants |
+| 候选标题 | .md | 单只装 / 双装 × 传统 ≤60 / 目录 ≤200 = 4 组 |
+| 描述 + FAQ | .md | 套用 8 章顺序 + 6 条强制规则 + FAQ 模板 |
+
+**输出位置**：当前工作目录的子目录 `mercadolibre-output/<产品名>/` 下。
+
+**错误示范**（❌ 禁止）：
+> "要不要我导出成 CSV 文件？"
+> "你想要我把结果保存到文件吗？"
+
+**正确做法**（✅ 必须）：
+> "已生成文件：
+> - `mercadolibre-output/pomo-volante/keywords.csv`
+> - `mercadolibre-output/pomo-volante/titles.md`
+> - `mercadolibre-output/pomo-volante/description.md`"
+
+**理由**：用户使用本 skill 的预期就是"做完直接给文件"，询问"要不要导出"既打断工作流又增加摩擦。
