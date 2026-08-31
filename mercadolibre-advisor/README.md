@@ -74,6 +74,7 @@ Skill 会自动先锁定巴西站/墨西哥站，再给出针对性分析。
 | `references/reduction-cancellation-returns.md` | 双站跨境降取消/退货率专项 |
 | `references/keyword-embedding-guide.md` | 关键词埋词实战指南（挖词 / 分类 / 位置分配 / 双站红线 / 案例） |
 | `references/keyword-localization-matching.md` | 关键词本地化匹配规则（去重音 + 单复数归一 + 找出漏掉的高流量词） |
+| `references/competitor-research-pipeline.md` | 竞品调研 → 标题/描述生成流水线（5 层验证 + 7 步执行 + Python 模板 + 4 红线） |
 
 ## 许可
 
