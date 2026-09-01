@@ -121,6 +121,59 @@ Fone Bluetooth TWS 5.3 | 30h bateria | IPX5 | USB-C | Preto
 - 不写平台禁词（`barato / melhor / grátis / envio grátis` 等）。
 - 用**巴西葡语**（不是欧葡），符合巴西消费者用词习惯（参考本指南"本地用词对照"）。
 
+### 3.1 标题 / 章节标题输出强约束（4 条强制规则）
+
+> 这 4 条规则解决**实际生成 Listing 时最容易犯的错**：模型把字符数注释当成标题本身、把数量信息塞进目录标题、混用葡 / 西语章节标题、Model 字段过长。
+
+#### 规则 1 — 注释与实际值明确分离
+- **禁止** 把"字符数 / 限制说明"等注释写进标题代码块内
+- ❌ 错误示范：
+  ```
+  🇧🇷 传统链接标题（56 字符 | Title Case | 尽量写满 ≤60）
+
+  56    ← 这是字符数，不是标题！
+  ```
+- ✅ 正确示范：
+  ```
+  // 传统链接标题（56 字符 | Title Case | 尽量写满 ≤60）
+  Fone Bluetooth TWS 5.3 À Prova D'Água Estuche Carga
+  ```
+- 注释用 `//` 或放在代码块外的描述行；**代码块内只放实际标题**
+
+#### 规则 2 — 目录标题禁数量信息
+- **禁止** 在标题（传统 / 目录）里写"X Unidades / Kit X / Par X"等数量词
+- 数量属于 **#3 O QUE VOCÊ RECEBE / CONTEÚDO DA EMBALAGEM** 章节（清单）
+- ❌ 错误：`Kit 2 Trava Porta Magnético Branco ... 2 Unidades ...`
+- ✅ 正确：`Kit Trava Porta Magnético Branco ...`（移除 `2 Unidades`，数量写到清单章节）
+- 同样的，Kit 2/3/4 这种"数量暗示"在标题里也**建议省略**——标题只放核心词 + 长尾 + 同义词 + 属性 + 卖点，不放数量
+
+#### 规则 3 — 章节标题语言与站点一一对应（强约束）
+- 🇧🇷 **巴西葡语章节**（必须葡语）：
+  - `DESTAQUES DO PRODUTO`
+  - `CARACTERÍSTICAS`
+  - `O QUE VOCÊ RECEBE` 或 `CONTEÚDO DA EMBALAGEM`
+  - `ITENS INCLUSOS` / `CONTEÚDO DA EMBALAGEM`
+  - `ESPECIFICAÇÕES`
+  - `OBSERVAÇÕES`
+  - `DÚVIDAS FREQUENTES`
+- 🇲🇽 **墨西哥西语章节**（必须西语）：
+  - `DESTACADOS DEL PRODUCTO`
+  - `CARACTERÍSTICAS`
+  - `QUÉ INCLUYE` 或 `CONTENIDO DEL PAQUETE`
+  - `CONTENIDO DEL PAQUETE`
+  - `ESPECIFICACIONES`
+  - `OBSERVACIONES`
+  - `PREGUNTAS FRECUENTES`
+- ❌ **不允许**：巴西站章节用西语（`PERGUNTAS FRECUENTES` 在巴西站是错的，正确是 `DÚVIDAS FREQUENTES`）；墨西哥站章节用葡语（`DESTAQUES DO PRODUTO` 错，正确是 `DESTACADOS DEL PRODUCTO`）
+- 注：`CARACTERÍSTICAS` / `ESPECIFICACIONES` 葡 / 西拼写相同，可通用；但 `OBSERVAÇÕES` vs `OBSERVACIONES`、`DÚVIDAS FREQUENTES` vs `PREGUNTAS FRECUENTES` 必须区分
+
+#### 规则 4 — Model 字段长度最佳实践（≤ 40 字符）
+- Model 是产品**型号标识符**，不是标题或描述
+- **最佳实践**：≤ 40 字符（例：`iPhone 15 Pro Max`、`Kit Trava Porta Magnético`）
+- **可接受**：≤ 50 字符
+- **超过 60 字符** = 已接近标题长度，应考虑删除重复关键词，让 Model 只承担"型号标识符"角色（埋词归标题）
+- ❌ **不要再以"用大量关键词拼长 Model"方式埋词** —— Model 的主要作用是聚合同款，埋词应归标题 / 属性
+
 ### 4. 排版示例（巴西葡语）
 
 ```
