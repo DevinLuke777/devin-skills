@@ -137,7 +137,7 @@ Model 字段在美客多承担**双重角色**：
 - **> 60 字符**说明已接近标题长度，应考虑删除重复关键词，让 Model 只承担"型号标识符"角色（埋词归标题）
 - ❌ **不要再以"用大量关键词拼长 Model"方式埋词** —— Model 主要作用是聚合同款，埋词归标题 / 属性
 
-> 标题与章节标题输出还有 **4 条强制规则**（注释与实际值分离、目录标题禁数量、章节标题语言与站点对应、Model 长度），详见 `references/brazil-listing-guide.md` 与 `references/mexico-listing-guide.md` 的"3.1 标题 / 章节标题输出强约束"段。
+> 标题与章节标题输出还有 **5 条强制规则**（注释与实际值分离、目录标题禁数量、章节标题语言与站点对应、Model ≤40 字符、**多 SKU 独立 Listing 标题必不同 + Model 按需同**），详见 `references/brazil-listing-guide.md` 与 `references/mexico-listing-guide.md` 的"3.1 标题 / 章节标题输出强约束"段。
 
 #### 3. 埋词方案（关键词位置分配）
 

@@ -174,6 +174,50 @@ Fone Bluetooth TWS 5.3 | 30h bateria | IPX5 | USB-C | Preto
 - **超过 60 字符** = 已接近标题长度，应考虑删除重复关键词，让 Model 只承担"型号标识符"角色（埋词归标题）
 - ❌ **不要再以"用大量关键词拼长 Model"方式埋词** —— Model 的主要作用是聚合同款，埋词应归标题 / 属性
 
+#### 规则 5 — 多 SKU 独立 Listing：标题必须不同，Model 按需同
+> 卖家把**同款产品按 SKU 单独上多个 Listing**（不同颜色 / 数量分别独立 Listing）时，必须遵守：
+
+| 字段 | 是否必须不同 | 说明 |
+|------|------------|------|
+| **传统 / 目录标题** | ✅ **必须不同** | 否则平台判重 / 重复 Listing，权重分散，可能被下架 |
+| **Model 字段** | ✅ 按"同型号聚合"原则 | 同款不同色/数量共享 Model；不同 Kit/系列 Model 不同 |
+| **Cor / Quantidade 等变体字段** | ✅ 区分 | 变体字段是平台识别 SKU 差异的关键 |
+| **描述 / 图片** | 可相同 | 不影响搜索 |
+
+**两种 SKU 维度的处理**：
+
+| 场景 | 标题处理 | Model 处理 |
+|------|---------|-----------|
+| **同款不同颜色**（如白 / 黑） | 标题必须含颜色词区分：`Trava Porta Magnético Branco` vs `Trava Porta Magnético Preto` | ✅ **Model 相同**（同型号聚合） |
+| **同款不同 Kit 数量**（如 Kit 2 / Kit 3 / Kit 4） | 标题必须含数量词区分：`Kit 2 ...` vs `Kit 3 ...` | ❌ **Model 不同**（不同 Kit 数量 = 不同型号） |
+
+**示例**（门吸 6 SKU）：
+```
+Kit 2 白色:
+  Model:     Trava Porta Magnético Kit 2
+  Title:     Trava Porta Magnético Adesivo Branco Sem Furo Kit 2 Pares
+  Cor:       Branco
+
+Kit 2 黑色:
+  Model:     Trava Porta Magnético Kit 2              ← 同 Kit 共享 Model
+  Title:     Trava Porta Magnético Adesivo Preto Sem Furo Kit 2 Pares
+  Cor:       Preto
+
+Kit 3 白色:
+  Model:     Trava Porta Magnético Kit 3              ← Kit 不同 → Model 不同
+  Title:     Trava Porta Magnético Adesivo Branco Sem Furo Kit 3 Pares
+  Cor:       Branco
+```
+
+**为什么标题必须不同**：
+- 平台判定重复 Listing 后会互相抢权重
+- 严重时整组 Listing 被合并或下架
+- 影响搜索排名（重复 Listing 不会被优先展示）
+
+**为什么 Model 应该相同（同款不同色）**：
+- Model 主要作用是**聚合同型号**——同款不同色应共享 Model，让平台识别为同一型号的不同变体
+- Model 不同（同款不同色）会破坏"变体聚合"机制，影响 MercadoLíder 等信誉体系
+
 ### 4. 排版示例（巴西葡语）
 
 ```
