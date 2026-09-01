@@ -263,7 +263,7 @@ def compliance_check(title: str, product_features: dict) -> list:
 | 候选标题 | .md | 单只装 / 双装 × 传统 ≤60 / 目录 ≤200 = 4 组 |
 | 描述 + FAQ | .md | 套用 8 章顺序 + 6 条强制规则 + FAQ 模板 |
 
-**输出位置**：当前工作目录的子目录 `mercadolibre-output/<产品名>/` 下。
+**输出位置**：**Windows 下载文件夹**（`%USERPROFILE%\Downloads\mercadolibre-output\<产品名>\`，展开为 `C:\Users\<当前用户>\Downloads\mercadolibre-output\<产品名>\`）。跨平台用 `os.path.expanduser('~/Downloads')` 自动获取。
 
 **错误示范**（❌ 禁止）：
 > "要不要我导出成 CSV 文件？"
@@ -271,8 +271,8 @@ def compliance_check(title: str, product_features: dict) -> list:
 
 **正确做法**（✅ 必须）：
 > "已生成文件：
-> - `mercadolibre-output/pomo-volante/keywords.csv`
-> - `mercadolibre-output/pomo-volante/titles.md`
-> - `mercadolibre-output/pomo-volante/description.md`"
+> - `C:\Users\Administrator\Downloads\mercadolibre-output\pomo-volante\keywords.csv`
+> - `C:\Users\Administrator\Downloads\mercadolibre-output\pomo-volante\titles.md`
+> - `C:\Users\Administrator\Downloads\mercadolibre-output\pomo-volante\description.md`"
 
 **理由**：用户使用本 skill 的预期就是"做完直接给文件"，询问"要不要导出"既打断工作流又增加摩擦。
