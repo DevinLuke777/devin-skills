@@ -218,6 +218,27 @@ Kit 3 白色:
 - Model 主要作用是**聚合同型号**——同款不同色应共享 Model，让平台识别为同一型号的不同变体
 - Model 不同（同款不同色）会破坏"变体聚合"机制，影响 MercadoLíder 等信誉体系
 
+### 3.2 实际生成常见错误清单（强约束禁止）
+
+> 以下是模型在自动生成 Listing 时**反复出现的错误**——禁止再犯。
+
+| 错误类型 | ❌ 反例 | ✅ 正例 |
+|---------|---------|---------|
+| **章节名加多余形容词** | `PRINCIPAIS CARACTERÍSTICAS` | `CARACTERÍSTICAS` |
+| **章节名加多余形容词** | `ESPECIFICAÇÕES TÉCNICAS` | `ESPECIFICAÇÕES` |
+| **章节名加多余形容词** | `DÚVIDAS MAIS FREQUENTES` | `DÚVIDAS FREQUENTES` |
+| **章节名用错语言**（巴西站用了西语）| `PERGUNTAS FREQUENTES` | `DÚVIDAS FREQUENTES` |
+| **缺必出章节** | 整段没有 `DESTAQUES DO PRODUTO` | 必须有 DESTAQUES（4-6 条概括卖点） |
+| **缺必出章节** | 没有 `OBSERVAÇÕES` | 必须有 OBSERVAÇÕES（颜色差异 / 尺寸误差 / 清洁方法等） |
+| **缺可选章节** | 没有 `DÚVIDAS FREQUENTES` | 推荐有 FAQ（5-7 条产品针对性问答） |
+| **主描述没有引子段** | 直接开始 `CARACTERÍSTICAS:` | 必须以"主标题 + 副标题 + 引子段"开头（#1） |
+| **DESTAQUES 堆细节** | 8 条功能详解（"Estímulo Multissensorial"、"Desenvolvimento Motor"、"Piano Melódico"等) | 4-6 条**概括卖点**（"Música interativa"、"Material seguro"、"Estimula os 5 sentidos"等） |
+| **主描述与 CARACTERÍSTICAS 重复** | 引子段已详细说功能 + CARACTERÍSTICAS 又说一遍 | 引子段简明（一两句话点核心），详细功能放 CARACTERÍSTICAS 或核心功能章节 |
+| **CONTEÚDO DA EMBALAGEM 句号串接** | `1 Tapete, 1 Piano, 1 Arco, 2 Apoios.` | 每项独立成段（空行分隔），同 ESPECIFICAÇÕES 规则 |
+| **章节顺序错乱** | DESTAQUES 在 CARACTERÍSTICAS 之后 / OBSERVAÇÕES 放在 DESTAQUES 之前 | 严格按 8 章顺序：#1 主标题 → #2 DESTAQUES → #3 清单 → #4 核心功能 → #5 USO → #6 POR QUE → #7 ESPECIFICAÇÕES → #8 OBSERVAÇÕES → #9 FAQ |
+| **核心功能章节与 DESTAQUES 重复** | DESTAQUES 列了"5 种玩法" + 核心功能章节又详写 5 种玩法 | DESTAQUES 列概括（如"Quatro modos de brincar"），详版放核心功能章节 |
+| **变体填词与主描述冲突** | 主描述说"leve e portátil"，变体名"Modelo Profissional" | 变体填词与主描述卖点一致 |
+
 ### 4. 排版示例（巴西葡语）
 
 ```
