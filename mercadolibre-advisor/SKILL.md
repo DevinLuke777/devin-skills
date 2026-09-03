@@ -273,11 +273,117 @@ Resposta 2.
 - ✅ 按 Kit 数量分别填不同 Model：`Trava Porta Magnético Kit 1` / `Kit 2` / `Kit 3` / `Kit 4`
 - 例外：同款不同颜色（如白/黑）共享 Model（规则 5 例外条款）
 
-### 🔴 标题禁数量词（按规则 2 扩展）
+### 🔴 标题数量词规则（**按变体维度区分**）
 
-- ❌ 标题里写 `Kit 1` / `Kit 2` 等数量暗示
+> 核心原则：**标题里要不要写数量词，取决于数量是不是变体维度**。
+
+**情况 A：数量做变体**（每个 Kit 数量 = 独立 SKU / 独立 Listing）
+- ❌ 标题里不写 `Kit 1` / `Kit 2` / `Kit 3` / `Kit 4`
 - ✅ 标题只放核心词 + 长尾 + 同义词 + 属性 + 卖点
-- 数量走 #3 O QUE VOCÊ RECEBE / CONTEÚDO DA EMBALAGEM 章节
+- 数量走 `#3 O QUE VOCÊ RECEBE` / `CONTEÚDO DA EMBALAGEM` 章节
+- **示例**：地吸门吸 1/2/3/4 件装，按 Kit 数量分 4 条 Listing → 4 条标题都是 `Aparador Trava Porta Magnético Inox Prendedor`（不带 Kit N）
+
+**情况 B：数量不变变体**（颜色 / 尺寸是变体，数量固定如始终 Kit 2）
+- ✅ 标题里**可以写数量词**（如 `Kit 2 Prendedor Magnético...`）
+- 变体字段走 `Cor` / `Tamanho` 等
+- **示例**：某卖家按颜色变体（Prateado / Preto），固定 Kit 2 → 标题用 `Kit 2 Prendedor Magnético Inox...` 是允许的
+
+### 🔴 CONTEÚDO DA EMBALAGEM 严禁数字编号前缀
+
+- ❌ **禁止** 每项以 `01` `02` `03` 等数字编号开头（`01 Aparador...`、`02 Adesivos...`、`02 Buchas...`、`04 Parafusos...`）
+- ❌ **禁止** `1.` `2.` `3.` 等 markdown 编号
+- ❌ **禁止** `1、` `①` 等任何编号形式
+- ✅ 每项以**项目名直接开头**（`Aparador magnético de porta...`、`Adesivos dupla face 3M...`）
+
+**为什么**：
+- 美客多 Listing 描述框是纯文本，编号 `01 02` 会被显示为字符 `01 02`，不像有意义的格式
+- 编号让每项像 markdown 列表项，与 8 章结构风格不一致
+- 项目名直接开头更自然、买家阅读更流畅
+
+### 🔴 #4 CARACTERÍSTICAS 是必出章节（绝不能漏）
+
+- ❌ **任何 SKU 缺 `CARACTERÍSTICAS:` 章节都视为输出不合格**——直接重写该 SKU 描述
+- ✅ CARACTERÍSTICAS 是 #4 必出章节，列产品功能 / 设计 / 材质等详情
+- 概括卖点放 `#2 DESTAQUES DO PRODUTO`，详版放 `#4 CARACTERÍSTICAS`——两者都必出，不能互替
+
+### 🔴 POR QUE ESCOLHER 必须在 USO VERSTÁTIL 之后（章节顺序硬约束）
+
+**正确的 8 章顺序**（任一项错位 = 输出不合格）：
+
+```
+#1 主标题 - 副标题:
+#2 DESTAQUES DO PRODUTO:
+#3 O QUE VOCÊ RECEBE:   (或 CONTEÚDO DA EMBALAGEM:)
+#4 CARACTERÍSTICAS:     ← 必出，不能漏
+#5 USO VERSTÁTIL:        (或 ONDE USAR:)
+#6 POR QUE ESCOLHER:     ← 必须在 USO 之后！
+#7 ESPECIFICAÇÕES:       (不是 FICHA TÉCNICA)
+#8 OBSERVAÇÕES:
+#9 DÚVIDAS FRECUENTES:   (推荐)
+```
+
+**反向错误**（这些顺序**禁止**）：
+- ❌ `POR QUE ESCOLHER:` 出现在 `USO VERSTÁTIL:` 之前
+- ❌ `ESPECIFICAÇÕES:` 出现在 `CARACTERÍSTICAS:` 之前
+- ❌ `DESTAQUES DO PRODUTO:` 出现在 `CARACTERÍSTICAS:` 之后
+
+### 🔴 OBSERVAÇÕES 章节内容严禁混入安装说明
+
+**正确**：`OBSERVAÇÕES:` 章节只放：
+- 颜色差异提示（"a cor real pode ser ligeiramente diferente das fotos"）
+- 尺寸误差提示（"medidas podem variar +/- 1 cm"）
+- 清洁 / 保养方法
+- 包装清单中的注意事项
+
+**错误**：`OBSERVAÇÕES:` 里塞安装步骤（"Limpe a superfície"、"Posicione o prendedor"、"Escolha o método de fixação" 等）
+
+**安装说明应该归入**：第 4 章 `CARACTERÍSTICAS:` 的详版功能描述中
+
+### 🔴 FAQ 答案必须针对单 SKU（禁止混入其他 Kit 对比）
+
+**错误示范**（4 SKU 通用 FAQ 用在单 SKU Listing 里）：
+```
+Q: O kit vem com material suficiente para todas as unidades?
+A: Sim. Cada embalagem inclui material completo. O Kit 1 acompanha material para 1, o Kit 2 para 2, o Kit 3 para 3 e o Kit 4 para 4 unidades...
+```
+
+**正确**（单 Kit 1 Listing）：
+```
+Q: O kit vem com material suficiente para todas as unidades?
+A: Sim. O Kit 1 acompanha material completo para 1 unidade, incluindo 1 aparador, 2 adesivos dupla face 3M, 2 buchas e 4 parafusos.
+```
+
+### 🔴 自检报告必须逐 SKU 列章节清单（不能整体打 ✓）
+
+**错误**（整体漂亮报告但实际有缺漏）：
+```
+## 合规校验
+- 字符上限 ✓
+- 禁词扫描 ✓
+- Title Case ✓
+- ... 全部 ✓
+```
+
+**正确**（**逐 SKU 逐章节**列）：
+```
+## 合规校验
+
+### SKU-01
+- ✅ #1 主标题 - 副标题: ✓
+- ✅ #2 DESTAQUES DO PRODUTO: 6 条 ✓
+- ✅ #3 O QUE VOCÊ RECEBE: 4 项 ✓
+- ✅ #4 CARACTERÍSTICAS: ✓
+- ✅ #5 USO VERSTÁTIL: ✓
+- ✅ #6 POR QUE ESCOLHER: ✓
+- ✅ #7 ESPECIFICAÇÕES: 7 项 ✓
+- ✅ #8 OBSERVAÇÕES: 4 条 ✓
+- ✅ #9 DÚVIDAS FRECUENTES: 7 条 ✓
+
+### SKU-02
+... 同样逐章节列
+```
+
+> **任何一章节标 ⚠️ 缺失 = 该 SKU 必须重写**，**不能整体打 ✓ 掩盖问题**。
 
 ### 🔴 描述开头格式（必出 #1）
 

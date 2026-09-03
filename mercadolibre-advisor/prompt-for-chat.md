@@ -129,6 +129,49 @@ Model 字段双重角色：聚合值 + 埋词位置。
 - 市场高流量搜索词归一化集合（从热搜词反查 / 广告工具 / 搜索补全收集）
 - 做差集 = 市场有、用户没埋的词 → 补入埋词清单
 
+#### ⚠️ 实际生成常见硬错误（最易触犯，零容忍）
+
+##### 🔴 标题数量词规则（按变体维度区分）
+
+- **情况 A：数量做变体**（每个 Kit 数量 = 独立 SKU / 独立 Listing）→ ❌ 标题里不写 `Kit 1` `Kit 2`，✅ 只放核心词 + 长尾 + 同义词 + 属性 + 卖点
+- **情况 B：数量不变变体**（颜色 / 尺寸是变体，数量固定）→ ✅ 标题里**可以写数量词**（如 `Kit 2 Prendedor Magnético...`）
+
+##### 🔴 CONTEÚDO DA EMBALAGEM 严禁数字编号前缀
+
+- ❌ 禁止 `01 02 03` 数字编号开头（`01 Aparador...`、`02 Adesivos...`）
+- ❌ 禁止 `1.` `2.` markdown 编号
+- ✅ 每项以项目名直接开头（`Aparador magnético...`、`Adesivos dupla face...`）
+
+##### 🔴 #4 CARACTERÍSTICAS 是必出章节（绝不能漏）
+
+任何 SKU 缺 `CARACTERÍSTICAS:` 章节都视为输出不合格，直接重写该 SKU 描述。#2 DESTAQUES（概括）和 #4 CARACTERÍSTICAS（详版）都必出，不能互替。
+
+##### 🔴 8 章顺序硬约束（POR QUE 必须在 USO 之后）
+
+```
+#1 主标题 - 副标题:
+#2 DESTAQUES DO PRODUTO:
+#3 O QUE VOCÊ RECEBE:   (或 CONTEÚDO DA EMBALAGEM:)
+#4 CARACTERÍSTICAS:     ← 必出
+#5 USO VERSTÁTIL:        (或 ONDE USAR:)
+#6 POR QUE ESCOLHER:     ← 必须在 USO 之后！
+#7 ESPECIFICAÇÕES:       (不是 FICHA TÉCNICA)
+#8 OBSERVAÇÕES:
+#9 DÚVIDAS FRECUENTES:   (推荐)
+```
+
+##### 🔴 OBSERVAÇÕES 严禁混入安装说明
+
+观测章节只放颜色差异 / 尺寸误差 / 清洁保养 / 注意事项。安装步骤（"Limpe a superfície"、"Posicione o prendedor"）归入 `CARACTERÍSTICAS:`。
+
+##### 🔴 FAQ 答案必须针对单 SKU
+
+禁止在单 SKU Listing 的 FAQ 答案里混入其他 Kit 的对比信息（"Kit 1 para 1, Kit 2 para 2..."）。
+
+##### 🔴 自检报告必须逐 SKU 列章节清单
+
+不能整体打 ✓ 掩盖问题。必须逐 SKU 逐章节列 ✅ 或 ⚠️，任何 ⚠️ 标"缺失"即视为该 SKU 必须重写。
+
 完整规则详见 `references/keyword-localization-matching.md`。
 
 #### 5. 竞品调研 → 标题/描述生成流水线（高级，触发条件：用户提供 xlsx/xls 数据）
