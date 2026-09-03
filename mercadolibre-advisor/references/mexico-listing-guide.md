@@ -329,6 +329,7 @@ PREGUNTAS FRECUENTES:     （不能写成 PERGUNTAS MAIS FRECUENTES / DUVIDAS FR
 | 注意事项 / 颜色差异 / 尺寸误差 | `#8 OBSERVACIONES` | `#7 ESPECIFICACIONES` |
 | FAQ 问答 | `#9 PREGUNTAS FRECUENTES` | `#8 OBSERVACIONES` |
 | 颜色 / 主题 / 图案 | `Color` 字段或其他属性字段 | 标题（只放纯颜色） |
+| **数量信息**（`Cantidad: 1 unidad` / `Cantidad de piezas: 2`） | `#3 CONTENIDO DEL PAQUETE`（已隐含在物品行里）| `#7 ESPECIFICACIONES`（避免重复 / 数量已在清单体现） |
 
 #### 3.3.4 输出前自检流程（强约束）
 
