@@ -220,6 +220,36 @@ Kit 3 白色:
 - Model 主要作用是**聚合同型号**——同款不同色应共享 Model，让平台识别为同一型号的不同变体
 - Model 不同（同款不同色）会破坏"变体聚合"机制，影响 MercadoLíder 等信誉体系
 
+#### 规则 6 — 卖点列表章节可使用 `•` 作为列表标记（强烈推荐用于卖点段落）
+
+> 之前规则 3.1 / 3.2 把 `-`、`•`、`*` 等列为禁止装饰字符（防止段落开头堆砌）。但**实际 Listing 描述中，卖家常用 `•` 作为视觉列表标记**，特别在 DESTACADOS / CARACTERÍSTICAS / CONTENIDO DEL PAQUETE 等**多项目的卖点段落**里。
+
+**允许范围**（强约束）：
+- ✅ **多项目列表段落**（如 DESTACADOS 6 条卖点、CARACTERÍSTICAS 详细功能、CONTENIDO DEL PAQUETE 配件清单）允许每条以 `•` 开头
+- ❌ **段落开头禁止用** `•` 作为装饰前缀（任何章节的第一段第一句不能以 `•` 开始，**除非该段落是真正的列表**）
+- ❌ **段落中段禁止**用 `•` 作为装饰（避免奇怪中断）
+
+**正确示例**（CARACTERÍSTICAS 章节用 `•` 列功能）：
+```
+CARACTERÍSTICAS:
+• Sistema de fijación magnética de alta eficiencia y elegante.
+• Instalación opcional mediante cinta adhesiva de doble cara o fijación con tacos y tornillos.
+• No requiere perforación en el piso para instalación con cinta adhesiva.
+• Fabricado con materiales duraderos y resistentes al uso continuo.
+• Diseño discreto que se adapta a diferentes estilos de decoración.
+```
+
+**错误示例**（段落开头用 `•` 作为装饰）：
+```
+❌ • Trava Puerta Magnético Kit 2:
+❌ • Esta es la descripción principal del producto...
+```
+
+**为什么允许 `•`**：
+- 美客多 Listing 描述框支持 `•` 字符显示（视觉上呈现为小圆点列表）
+- 卖家读者看到的是清晰的列表，比连续段落更易扫读
+- **前提**：每条 `•` 是一条独立的产品卖点/功能/配件项，不是装饰
+
 ### 3.2 实际生成常见错误清单（强约束禁止）
 
 > 以下是模型在自动生成 Listing 时**反复出现的错误**——禁止再犯。
@@ -434,9 +464,10 @@ PREGUNTAS FRECUENTES:
 
 - ✅ **Q 单独成段**（句末 `?`，**首词必须以 ¿ 开头**——西语倒置问号），是**买家视角**：`¿Puedo...?`、`¿Funciona con...?`、`¿Sirve para...?`
 - ✅ **A 单独成段**（句末 `.`），是**卖家视角**：`Sí, ...`、`No, ...`、`Recomendamos ...`，直接回答
-- ✅ **Q 和 A 中间用空行分隔**（独立成 2 段）
-- ❌ **禁止 Q+A 写在同一段**（用 ` . ` 或 ` - ` 串接）
-- ❌ **禁止 Q 和 A 用 `:` 连成一段**（如 `¿Puedo taladrar la pared? No, ...` ❌）
+- ✅ **Q 和 A 中间紧接**（Q 段后立即是 A 段，**中间不空行**）
+- ✅ **Q-A 对之间空行分隔**（每对问答与下一对之间有视觉间隔）
+- ❌ **禁止 Q+A 写在同一段**（用 ` . ` 或 ` - ` 串接）——买家无法清楚区分
+- ❌ **禁止 Q 和 A 之间加空行**——会造成视觉割裂，让买家以为 A 是另一段
 - **条数**：5-7 条（不超 7，避免冗长）
 - **答案长度**：1-2 句，不要过长
 - **关键词自然融入**：问答里重复产品名 + 关键属性（有助于长尾搜索覆盖）
