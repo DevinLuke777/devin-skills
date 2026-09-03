@@ -209,13 +209,78 @@ def compliance_check(title: str, product_features: dict) -> list:
 - ❌ 无 Emoji：★、✅、™、®、⚠️
 - ❌ 无产品特征不符词（动态校验）
 
-### 步骤 7：输出 Markdown + CSV
+### 步骤 7：输出（**一个文件搞定所有上架内容**）
+
+> **核心原则**：标题 / Model / 描述 / FAQ 全部合并到**一个 .md 文件**里，不要拆成多个文件（避免卖家来回切换）。FAQ 是描述的 #9 章节，**嵌入描述里**，不另存。
 
 | 输出 | 编码 | 用途 |
 |------|------|------|
-| 关键词矩阵 | CSV **utf-8-sig** | Excel 直接打开中文不乱码 |
-| 单只装 / 双装标题 | .md | 候选方案对照 |
-| 描述 + FAQ | .md | 套用 8 章顺序 + 6 条强制规则 + FAQ 模板 |
+| 关键词矩阵 | CSV **utf-8-sig** | Excel 直接打开中文不乱码（独立文件） |
+| **完整 Listing** (标题 + Model + 描述含 FAQ + 埋词方案) | **.md** | **一个文件含所有上架内容** |
+
+#### 完整 Listing 文件结构（`listing.md`）
+
+```markdown
+# <产品名> Listing 方案
+
+## 一、关键词矩阵
+（CSV 摘要 / 核心 30 词）
+
+## 二、Model 字段填法
+- SKU-01: ...
+- SKU-02: ...（不同 Kit / 颜色 → Model 不同）
+
+## 三、双版本标题（传统链接 ≤60 / 目录链接 ≤200）
+
+### SKU-01
+**传统链接标题**: ...
+**目录链接标题**: ...
+
+### SKU-02
+...
+
+## 四、完整描述（**含 FAQ #9 章节**）
+
+### SKU-01 描述
+KIT X - 副标题:
+引子段.
+
+DESTAQUES DO PRODUTO:
+• 卖点 1.
+• 卖点 2.
+• ...
+
+CARACTERÍSTICAS:
+...
+
+ONDE USAR:
+...
+
+ESPECIFICAÇÕES:
+Material: ...
+...
+
+OBSERVAÇÕES:
+...
+
+DÚVIDAS FREQUENTES:
+<Pergunta 1?>
+Resposta 1.
+<Pergunta 2?>
+Resposta 2.
+
+### SKU-02 描述
+...
+
+## 五、合规校验报告
+- 字符限制 ✓ / ✗
+- 禁词扫描 ✓ / ✗
+- 章节齐全 ✓ / ✗
+- 去重 ✓ / ✗
+
+## 六、运营建议
+Mercado Ads 关键词 / 图片要求 / 认证提醒 ...
+```
 
 ---
 

@@ -137,7 +137,17 @@ Model 字段双重角色：聚合值 + 埋词位置。
 
 **7 步流水线**：读源 → 聚合归一 → 分类 → 生成 4 组候选标题（单只装/双装 × 传统 ≤60/目录 ≤200）→ 字符校验 → 4 红线合规校验 → 输出。
 
-**输出动作强约束**：完成流水线后**自动生成**关键词矩阵 CSV（utf-8-sig）+ 候选标题 .md + 描述 + FAQ .md 到 **Windows 下载文件夹**（`%USERPROFILE%\Downloads\mercadolibre-output\<产品名>\`，跨平台用 `os.path.expanduser('~/Downloads')`），**不要询问用户"要不要导出"**，直接生成并告知文件位置。
+**输出动作强约束**：完成流水线后**自动生成**两个文件到 **Windows 下载文件夹**（`%USERPROFILE%\Downloads\mercadolibre-output\<产品名>\`，跨平台用 `os.path.expanduser('~/Downloads')`），**不要询问用户"要不要导出"**，直接生成并告知文件位置。
+
+| 输出文件 | 内容 |
+|---------|------|
+| `keywords.csv` | 关键词矩阵（utf-8-sig 编码） |
+| **`listing.md`** | **完整 Listing（标题双版本 + Model + 描述含 FAQ + 埋词方案 + 合规校验）— 一个文件搞定** |
+
+> **输出文件结构强制约束**：
+> - ❌ 不要把标题 / Model / 描述 / FAQ 拆成多个文件
+> - ✅ 全部合并到 `listing.md` 一个文件
+> - ❌ FAQ 不要独立成文件（FAQ 是描述的 #9 章节，必须嵌入描述里）
 
 完整方法论 + Python 模板见 `references/competitor-research-pipeline.md`。
 

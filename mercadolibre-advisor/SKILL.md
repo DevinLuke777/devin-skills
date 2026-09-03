@@ -209,7 +209,82 @@ Model 字段在美客多承担**双重角色**：
 
 完整方法论 + Python 代码模板详见 `references/competitor-research-pipeline.md`。
 
-**输出动作强约束**：完成 7 步流水线后**自动生成**关键词矩阵 CSV（utf-8-sig）+ 候选标题 .md + 描述 + FAQ .md 到 **Windows 下载文件夹**（`%USERPROFILE%\Downloads\mercadolibre-output\<产品名>\`，跨平台用 `os.path.expanduser('~/Downloads')`），**不询问用户"要不要导出"**，直接生成并告知文件位置。
+**输出动作强约束**：完成 7 步流水线后**自动生成**两个文件到 **Windows 下载文件夹**（`%USERPROFILE%\Downloads\mercadolibre-output\<产品名>\`，跨平台用 `os.path.expanduser('~/Downloads')`），**不询问用户"要不要导出"**，直接生成并告知文件位置。
+
+| 输出文件 | 内容 |
+|---------|------|
+| `keywords.csv` | 关键词矩阵（utf-8-sig 编码） |
+| **`listing.md`** | **完整 Listing（标题双版本 + Model + 描述含 FAQ + 埋词方案 + 合规校验）— 一个文件搞定所有上架内容** |
+
+> **输出文件结构强制约束**：
+> - ❌ 不要把标题 / Model / 描述 / FAQ 拆成多个文件（卖家要来回切换，太繁琐）
+> - ✅ 全部合并到 `listing.md` 一个文件
+> - ❌ FAQ 不要独立成文件（FAQ 是描述的 #9 章节，必须嵌入描述里）
+
+## ⚠️ 实际生成常见硬错误（最易触犯，零容忍）
+
+> 模型反复在以下点上犯错——**生成后必须自检**，发现立即重写对应章节。
+
+### 🔴 章节名严禁不在 8 章标准表里
+
+禁止使用以下非标准章节名（即使看起来"合理"）：
+
+| ❌ 常见错误章节名 | 应替换为 | 原因 |
+|------------------|---------|------|
+| `FICHA TÉCNICA` | `ESPECIFICAÇÕES` | "TÉCNICA" 是多余词 |
+| `INSTALAÇÃO` | 归入 `CARACTERÍSTICAS` 或 `OBSERVAÇÕES` | 不在 8 章顺序里 |
+| `APLICAÇÕES` | `USO VERSTÁTIL` 或 `ONDE USAR` | 不在 8 章顺序里 |
+| `MAIS PRATICIDADE COM 2 PEÇAS` | `CARACTERÍSTICAS` | 不在 8 章 + 含数量词 |
+| `PARA QUEM É INDICADO` | `POR QUE ESCOLHER` | 不在 8 章顺序里 |
+| `VERSATILIDADE NA COZINHA` | `USO VERSTÁTIL` | 不规范章节名 |
+| `DÚVIDAS MAIS FREQUENTES` | `DÚVIDAS FREQUENTES` | "MAIS" 是多余词 |
+
+### 🔴 必出章节缺失 = 输出不合格（缺任一项 = 重写）
+
+| # | 必出章节 | 巴西葡语标准名 | 缺的影响 |
+|---|---------|--------------|---------|
+| 1 | 主标题 + 副标题 + 引子段 | `主标题 - 副标题:` + 引子段 | 缺则描述无核心定位 |
+| 2 | DESTAQUES | `DESTAQUES DO PRODUTO:` | 缺则失去卖点概括 |
+| 3 | 包装清单 | `O QUE VOCÊ RECEBE:` 或 `CONTEÚDO DA EMBALAGEM:` | 缺则买家不知含什么 |
+| 5 | USO VERSTÁTIL | `USO VERSTÁTIL:` 或 `ONDE USAR:` | 缺则失去使用场景 |
+| 7 | ESPECIFICAÇÕES | `ESPECIFICAÇÕES:`（不是 FICHA TÉCNICA）| 缺则失去规格参数 |
+| 8 | OBSERVAÇÕES | `OBSERVAÇÕES:` | 缺则失去注意事项（颜色差异 / 尺寸误差）|
+
+推荐章节（不是必出但最好有）：`POR QUE ESCOLHER` (#6) + `DÚVIDAS FRECUENTES` (#9)
+
+### 🔴 FAQ 错误格式（最易触犯）
+
+- ❌ Q 用 `1. 2. 3.` 编号前缀——禁止任何编号前缀（`1.`、`1、`、`①`、`01`）
+- ❌ Q 和 A 之间空行分隔——Q 和 A 必须**紧接**（不空行），Q-A 对之间才空行
+- ✅ 正确格式：
+
+```
+DÚVIDAS FREQUENTES:
+<Pergunta 1?>
+Resposta 1.
+
+<Pergunta 2?>
+Resposta 2.
+```
+
+### 🔴 多 SKU Model 必须不同
+
+- ❌ 多个 Kit 数量 SKU（Kit 1/2/3/4）共享同一个 Model —— 错误
+- ✅ 按 Kit 数量分别填不同 Model：`Trava Porta Magnético Kit 1` / `Kit 2` / `Kit 3` / `Kit 4`
+- 例外：同款不同颜色（如白/黑）共享 Model（规则 5 例外条款）
+
+### 🔴 标题禁数量词（按规则 2 扩展）
+
+- ❌ 标题里写 `Kit 1` / `Kit 2` 等数量暗示
+- ✅ 标题只放核心词 + 长尾 + 同义词 + 属性 + 卖点
+- 数量走 #3 O QUE VOCÊ RECEBE / CONTEÚDO DA EMBALAGEM 章节
+
+### 🔴 描述开头格式（必出 #1）
+
+- ❌ 描述直接以 "O [产品]..." 引子段开头
+- ✅ 描述必须以 `主标题 - 副标题:` + 换行 + 引子段（#1 章节）
+
+## Workflow
 
 ## Workflow
 1. **站点锁定（第一步必做）**：接收提问后**首先确认**目标站点为巴西站（MLB）还是墨西哥站（MLM）。**语言与站点一一对应**：用户发**葡语（或点名巴西）→ 只做巴西版**；用户发**西语（或点名墨西哥）→ 只做墨西哥版**；用户点名双站才做双站对比版。若未说明，主动追问：「您做的是美客多**巴西站**还是**墨西哥站**？」——锁定站点后，所有分析以该站专属机制为准。
