@@ -241,6 +241,91 @@ Kit 3 白色:
 | **核心功能章节与 DESTACADOS 重复** | DESTACADOS 列了功能 + 核心功能又详写 | DESTACADOS 列概括，详版放核心功能章节 |
 | **变体填词与主描述冲突** | 主描述说"ligero y portátil"，变体名"Modelo Profesional" | 变体填词与主描述卖点一致 |
 
+### 3.3 描述输出前必检清单（强约束，**任何描述输出前必须对照本表逐项检查**）
+
+> 这是一份**输出前必查的结构化检查清单**。每次生成描述后，必须按这张表逐项核对；缺任何一项、章节名拼错、或把内容塞错章节，**视为输出不合格，必须重写**。
+
+#### 3.3.1 8 章结构必查（缺任何必出项 = 输出不合格）
+
+| # | 章节 | 是否必出 | 严格章节名（西语） | 检查点 |
+|---|------|---------|------------------|--------|
+| 1 | 主标题 + 副标题 + 引子段 | ✅ **必出** | `主标题 - 副标题:` + 换行 + 引子段 | 有没有 " - " 分隔？引子段是否完整？ |
+| 2 | DESTACADOS DEL PRODUCTO | ✅ **必出** | `DESTACADOS DEL PRODUCTO:` | 4-6 条概括卖点，**每条独立成段**，不堆细节 |
+| 3 | QUÉ INCLUYE / CONTENIDO DEL PAQUETE | ✅ **必出** | `QUÉ INCLUYE:` 或 `CONTENIDO DEL PAQUETE:` | 清单 + 数量，**每项独立成段**（不能塞到 ESPECIFICACIONES 里）|
+| 4 | 核心功能 / 设计亮点章节 | ⚠️ 推荐（多色多 SKU 必须） | `CARACTERÍSTICAS:` / `DISEÑO Y DURABILIDAD:` 等 | 4 个以内，**不与 DESTACADOS 重复** |
+| 5 | USO VERSTÁTIL / DÓNDE USAR | ✅ **必出** | `USO VERSTÁTIL:` 或 `DÓNDE USAR:` | 使用场景段 |
+| 6 | POR QUÉ ELEGIR | ⚠️ 推荐 | `POR QUÉ ELEGIR:` | 信任元素（Compra Garantizada 等） |
+| 7 | ESPECIFICACIONES | ✅ **必出** | `ESPECIFICACIONES:` | 每项独立成段；**不能包含清单内容**（清单在 #3）|
+| 8 | OBSERVACIONES | ✅ **必出** | `OBSERVACIONES:` | 颜色差异 / 尺寸误差 / 清洁方法 |
+| 9 | PREGUNTAS FRECUENTES | ⚠️ 推荐 | `PREGUNTAS FRECUENTES:` | 5-7 条 FAQ，**每条问答独立成段**，不与 DESTACADOS 重复 |
+
+#### 3.3.2 章节名严格表（拼写错 / 多余词都禁止）
+
+**✅ 唯一允许的章节名**（严格按这 9 个）：
+
+```
+主标题 - 副标题:
+DESTACADOS DEL PRODUCTO:
+QUÉ INCLUYE:             （或 CONTENIDO DEL PAQUETE:）
+CARACTERÍSTICAS:          （或 DISEÑO Y DURABILIDAD: / DISEÑO: 等）
+USO VERSTÁTIL:            （或 DÓNDE USAR:）
+POR QUÉ ELEGIR:
+ESPECIFICACIONES:         （不能写成 ESPECIFICACIONES TECNICAS / ESPECIFICACOES）
+OBSERVACIONES:            （不能写成 OBSERVACION / OBSERVACOES）
+PREGUNTAS FRECUENTES:     （不能写成 PERGUNTAS MAIS FRECUENTES / DUVIDAS FREQUENTES）
+```
+
+**❌ 禁止的章节名（无论中文还是西语都禁止）**：
+
+| ❌ 禁止章节名 | 问题 | 替代 |
+|--------------|------|------|
+| `PRINCIPALES CARACTERÍSTICAS` | 多余词 "PRINCIPALES" | `CARACTERÍSTICAS` |
+| `PRINCIPALES BENEFICIOS` | 多余词 + 不是标准章节 | `DESTACADOS DEL PRODUCTO` |
+| `ESPECIFICACIONES TÉCNICAS` | 多余词 "TÉCNICAS" | `ESPECIFICACIONES` |
+| `RECOMENDACIONES DE USO` | 不在 8 章顺序里 | 归入 `OBSERVACIONES` 或 `USO VERSTÁTIL` |
+| `MÁS PRACTICIDAD CON 2 PIEZAS` | 不在 8 章顺序 + 含数量词 | 改写后归入 `CARACTERÍSTICAS` |
+| `PARA QUIÉN ES INDICADO` | 不在 8 章顺序里 | 改写后归入 `POR QUÉ ELEGIR` |
+| `VERSATILIDAD EN LA COCINA` | 章节名不规范 | `USO VERSTÁTIL:` |
+| `DISEÑO Y DURABILIDAD` (无冒号) | 缺冒号 | `DISEÑO Y DURABILIDAD:` |
+
+#### 3.3.3 关键互斥规则（防止内容塞错章节）
+
+| 内容 | 应放在 | ❌ 严禁放在 |
+|------|--------|------------|
+| 物品清单（"1X Tapete + 1X Piano"） | `#3 QUÉ INCLUYE` 或 `CONTENIDO DEL PAQUETE` | `#7 ESPECIFICACIONES` |
+| 颜色 / 尺寸变体（"Blanco / Negro"） | `Color` / `Talla` 等变体字段 | `#7 ESPECIFICACIONES` |
+| 概括卖点（4-6 条） | `#2 DESTACADOS DEL PRODUCTO` | `#4 CARACTERÍSTICAS` |
+| 详细功能 / 设计细节 | `#4 CARACTERÍSTICAS` / `#5 USO VERSTÁTIL` | `#2 DESTACADOS`（避免堆细节） |
+| 注意事项 / 颜色差异 / 尺寸误差 | `#8 OBSERVACIONES` | `#7 ESPECIFICACIONES` |
+| FAQ 问答 | `#9 PREGUNTAS FRECUENTES` | `#8 OBSERVACIONES` |
+| 颜色 / 主题 / 图案 | `Color` 字段或其他属性字段 | 标题（只放纯颜色） |
+
+#### 3.3.4 输出前自检流程（强约束）
+
+模型生成描述后，**必须按以下流程自检**：
+
+```
+1. 9 个章节名是否齐全？必出项是否都出现？
+   - 主标题 - 副标题: ✅
+   - DESTACADOS DEL PRODUCTO: ✅
+   - QUÉ INCLUYE: 或 CONTENIDO DEL PAQUETE: ✅
+   - CARACTERÍSTICAS: ✅
+   - USO VERSTÁTIL: 或 DÓNDE USAR: ✅
+   - ESPECIFICACIONES: ✅
+   - OBSERVACIONES: ✅
+2. 推荐项是否齐全？
+   - POR QUÉ ELEGIR:（如缺失则补）
+   - PREGUNTAS FRECUENTES:（如缺失则补）
+3. 章节名是否严格匹配 3.3.2 的标准表？无多余词、无拼写错
+4. 章节内容是否塞对位置？（按 3.3.3 互斥规则查）
+5. 清单（#3）和规格（#7）是否分章节？是否各自每项独立成段？
+6. DESTACADOS（#2）是否 4-6 条概括、是否与 CARACTERÍSTICAS（#4）去重？
+7. 是否完全没有前缀装饰符号（-、•、*、>、|、┃、1.、①）？
+8. 标题是否 Title Case + ≤60/≤200 字符？
+```
+
+**任一项不合格，必须重写该章节**（不是局部修，是重写）。
+
 ### 4. 排版示例（墨西哥西语）
 
 ```
