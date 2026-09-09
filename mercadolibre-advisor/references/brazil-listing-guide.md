@@ -248,6 +248,60 @@ CARACTERÍSTICAS:
 - 卖家读者看到的是清晰的列表，比连续段落更易扫读
 - **前提**：每条 `•` 是一条独立的产品卖点/功能/配件项，不是装饰
 
+#### 规则 7 — 严禁联系方式与销售条件（美客多平台硬规则）
+
+> **美客多明确禁止**Listing 描述包含以下内容。违反会被审核拒绝 / Listing 被隐藏。
+
+##### ❌ 严禁联系方式
+
+- e-mail 地址
+- 电话号码
+- 实际地址
+- 外部链接（自家网站、YouTube、其他平台）
+- 社交媒体账号（Instagram、Facebook、WhatsApp、Telegram、Twitter 等）
+- QR 码
+
+##### ❌ 严禁销售条件（"condições de venda"）
+
+- **担保条款**：详细的"Compra Garantida do Mercado Livre: a plataforma garante o recebimento do produto"等展开解释
+- **保修承诺**："garantia de 7 dias"、"garantia de 90 dias"、"garantia contra defeitos de fabricação"等具体保修期
+- **免运费**："frete grátis"入描述（靠平台开关控制，不在描述里写）
+- **分期条款**："parcelamento em 12x sem juros"、"sem juros"等具体分期方案
+- **物流承诺**："envio rápido com rastreamento"、"envio em 1-3 dias úteis"等具体物流时间
+- **售后承诺**："suporte após a compra"、"atendimento ao cliente"等售后服务
+- **法律条款 / 注脚**："termos legais"、"política de troca"等法律文本
+- **发票**："nota fiscal" 也属于销售条件（不是禁忌但应在 POR QUE 外提）
+
+##### ✅ 可以保留的"POR QUE ESCOLHER"章节内容
+
+- 产品本身的优势：材质、工艺、设计、工厂直销、专利技术
+- 与同类产品的差异点：独特功能、规格优势
+- 客观的事实陈述：品牌历史（如适用）、认证（如 INMETRO）
+- **不要写**任何平台条款、平台承诺、平台机制相关的展开描述
+
+##### ❌ 错误示例（你的 Listing 触犯的就是这些）
+
+```
+❌ POR QUE ESCOLHER:
+Kit completo de ping pong laranja e tênis de mesa pronto para jogar em qualquer mesa compatível.
+Compra Garantida do Mercado Livre: a plataforma garante o recebimento do produto.   ← 平台担保条款
+Envio rápido com rastreamento para todo o Brasil.                                ← 物流承诺
+Suporte às dúvidas após a compra.                                                 ← 售后承诺
+```
+
+##### ✅ 正确示例（只保留产品本身优势）
+
+```
+✅ POR QUE ESCOLHER:
+Kit completo de ping pong laranja e tênis de mesa pronto para jogar em qualquer mesa compatível.
+
+Raquetes com cabo côncavo FL e camadas de madeira, esponja e borracha para pegada firme e confortável.
+
+Bolsa de armazenamento na cor laranja inclusa para transporte e guarda prática.
+```
+
+> **规则精神**：`POR QUE ESCOLHER` 章节只讲**产品本身的优势**，不讲**平台机制 / 销售条件**。所有平台担保 / 物流 / 售后等承诺**由平台自己显示在 Listing 卡片上**（不在卖家描述里写）。
+
 ### 3.2 实际生成常见错误清单（强约束禁止）
 
 > 以下是模型在自动生成 Listing 时**反复出现的错误**——禁止再犯。
@@ -282,7 +336,7 @@ CARACTERÍSTICAS:
 | 3 | O QUE VOCÊ RECEBE / CONTEÚDO DA EMBALAGEM | ✅ **必出** | `O QUE VOCÊ RECEBE:` 或 `CONTEÚDO DA EMBALAGEM:` | 清单 + 数量，**每项独立成段**（不能塞到 ESPECIFICAÇÕES 里）|
 | 4 | 核心功能 / 设计亮点章节 | ⚠️ 推荐（多色多 SKU 必须） | `CARACTERÍSTICAS:` / `DESIGN E DURABILIDADE:` 等 | 4 个以内，**不与 DESTAQUES 重复** |
 | 5 | USO VERSTÁTIL / ONDE USAR | ✅ **必出** | `USO VERSTÁTIL:` 或 `ONDE USAR:` | 使用场景段 |
-| 6 | POR QUE ESCOLHER | ⚠️ 推荐 | `POR QUE ESCOLHER:` | 信任元素（Compra Garantida / 7 天保修 等） |
+| 6 | POR QUE ESCOLHER | ⚠️ 推荐 | `POR QUE ESCOLHER:` | **产品本身的优势**（材质 / 工艺 / 设计 / 工厂直销等）；**严禁**销售条件（详见规则 7）|
 | 7 | ESPECIFICAÇÕES | ✅ **必出** | `ESPECIFICAÇÕES:` | 每项独立成段；**不能包含清单内容**（清单在 #3）|
 | 8 | OBSERVAÇÕES | ✅ **必出** | `OBSERVAÇÕES:` | 颜色差异 / 尺寸误差 / 清洁方法 |
 | 9 | DÚVIDAS FREQUENTES | ⚠️ 推荐 | `DÚVIDAS FRECUENTES:` | 5-7 条 FAQ，**每条问答独立成段**，不与 DESTAQUES 重复 |
