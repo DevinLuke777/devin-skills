@@ -13,6 +13,7 @@
 | [fund-analysis-advisor](fund-analysis-advisor/README.md) | 基金投资分析与市场情报顾问——行情解读 / 基金诊断 / 实盘分析 / 产业链机会映射 |
 | [travel-planner](travel-planner/README.md) | 资深旅行规划师——行程规划 / 预算分配 / 避坑指南 / 出行前 checklist |
 | [multi-lang-translator](multi-lang-translator/README.md) | 通用语境自适应翻译器——多语言高保真翻译 / 地区变体适配 / 绝对零冗余 / 自动中文对照 |
+| [family-kitchen-tutor](family-kitchen-tutor/README.md) | 家庭厨房全科导师——教做菜+推荐菜谱，从原理出发建立可迁移烹饪认知 |
 | [dabaihua-chat-partner](dabaihua-chat-partner/README.md) | 大白话聊天伙伴——任何复杂概念都能用最通俗的白话讲清楚 |
 
 ## 文件说明
@@ -33,7 +34,7 @@
 
 > 帮我安装这个 skill：https://github.com/DevinLuke777/devin-skills 里的 `[skill名称]`
 
-将 `[skill名称]` 替换成 `prompt-architect`、`code-assistant-skill`、`cross-border-ecommerce-advisor`、`mercadolibre-advisor`、`fund-analysis-advisor`、`travel-planner` 或 `dabaihua-chat-partner`。AI 助手会自动从 GitHub 下载对应文件夹并安装到正确位置。
+将 `[skill名称]` 替换成 `prompt-architect`、`code-assistant-skill`、`cross-border-ecommerce-advisor`、`mercadolibre-advisor`、`fund-analysis-advisor`、`travel-planner`、`family-kitchen-tutor` 或 `dabaihua-chat-partner`。AI 助手会自动从 GitHub 下载对应文件夹并安装到正确位置。
 
 ### 方式二：手动安装
 
