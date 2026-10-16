@@ -211,6 +211,13 @@ Model 字段在美客多承担**双重角色**：
 
 **输出动作强约束**：完成 7 步流水线后**自动生成**两个文件到 **Windows 下载文件夹**（`%USERPROFILE%\Downloads\mercadolibre-output\<产品名>\`，跨平台用 `os.path.expanduser('~/Downloads')`），**不询问用户"要不要导出"**，直接生成并告知文件位置。
 
+> **本机用户约定（优先于上面的默认路径）**：用户跑在 NAS 上，Listing 交付物一律输出到 `/vol1/1000/Hermes/美客多/<品类名>/`（按品类建子文件夹，例：`围裙/`），**不要**用 Windows Downloads。每个品类交付 3 个文件：
+> - `<品类>-listing.md` — 完整方案（关键词矩阵 + Model + 标题 + 描述 + 逐 SKU 合规校验 + 运营建议），描述用 pt-BR，标题附中文对照
+> - `<品类>-links.csv` — **上架用**：Tipo / SKU / Qtd / Cor / Model / Titulo / Titulo_chars / Descricao（utf-8-sig，一行一个 SKU，描述含换行也在单元格里）
+> - `keywords.csv` — 归一化关键词矩阵
+> 写文件后 `chmod 644`；目录本身在 fnOS 上是 ACL 控制、权限位显示为 `d---------`，但 uid 1000 可写。
+> **交付动作（用户明确要求，2026-09 起）**：写完 NAS 文件后**必须再把文件本身发给用户**（Telegram 用 `MEDIA:<绝对路径>` 逐行附上 md + links.csv + keywords.csv），不能只报路径说"已保存"。用户原话："你保存好了也要发我看看"。
+
 | 输出文件 | 内容 |
 |---------|------|
 | `keywords.csv` | 关键词矩阵（utf-8-sig 编码） |
@@ -279,6 +286,8 @@ Resposta 2.
 
 **情况 A：数量做变体**（每个 Kit 数量 = 独立 SKU / 独立 Listing）
 - ❌ 标题里不写 `Kit 1` / `Kit 2` / `Kit 3` / `Kit 4`
+- ⚠️ **实测坑（审核会直接拒，两次实证）**：给标题加数量词会被驳，两次理由分别是「acrescenta \"Kit 2\" sem trazer uma identificação mais precisa do produto」和「o título passou a sugerir um kit com outra composição, enquanto o produto publicado é um par de palmilhas... precisa manter a mesma identificação do produto」。
+  → **铁律：标题必须与该 Listing 实际发布的商品一致**。给「一对 / 单件」的 Listing 改标题加数量（`Kit 2` 或 `2 Pares` 都算）＝改变商品识别，**必被拒**。要多件装就**新建独立 Listing**（自己的标题 + 自己的 Model），不要去改原 Listing 的标题。
 - ✅ 标题只放核心词 + 长尾 + 同义词 + 属性 + 卖点
 - 数量走 `#3 O QUE VOCÊ RECEBE` / `CONTEÚDO DA EMBALAGEM` 章节
 - **示例**：地吸门吸 1/2/3/4 件装，按 Kit 数量分 4 条 Listing → 4 条标题都是 `Aparador Trava Porta Magnético Inox Prendedor`（不带 Kit N）
