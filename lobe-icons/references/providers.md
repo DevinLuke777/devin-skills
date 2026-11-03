@@ -1,0 +1,63 @@
+# ModelProvider 枚举（provider 键名）
+
+用于 `ModelProvider`、`ProviderIcon`、`ProviderCombine`，也是 CDN 直链里的 `{id}`。
+
+| Key | Value |
+| --- | --- |
+| Ai21 | ai21 |
+| Ai302 | ai302 |
+| Ai360 | ai360 |
+| AiHubMix | aihubmix |
+| AiMass | aimass |
+| AiStudio | aistudio |
+| AkashChat | akashchat |
+| AlephAlpha | alephalpha |
+| Alibaba | alibaba |
+| AlibabaCloud | alibabacloud |
+| AntGroup | antgroup |
+| Anthropic | anthropic |
+| Anyscale | anyscale |
+| Apple | apple |
+| Azure | azure |
+| Baidu | baidu |
+| Bedrock | bedrock |
+| ByteDance | bytedance |
+| Cerebras | cerebras |
+| ChatGLM | chatglm |
+| Claude | claude |
+| Cloudflare | cloudflare |
+| Cohere | cohere |
+| DeepSeek | deepseek |
+| Dify | dify |
+| Doubao | doubao |
+| Gemini | gemini |
+| Github | github |
+| Google | google |
+| Groq | groq |
+| HuggingFace | huggingface |
+| Hunyuan | hunyuan |
+| Kimi | kimi |
+| Meta | meta |
+| Microsoft | microsoft |
+| Minimax | minimax |
+| Mistral | mistral |
+| Moonshot | moonshot |
+| Nvidia | nvidia |
+| Ollama | ollama |
+| OpenAI | openai |
+| OpenRouter | openrouter |
+| Perplexity | perplexity |
+| Qwen | qwen |
+| SiliconCloud | siliconcloud |
+| Stability | stability |
+| Stepfun | stepfun |
+| Suno | suno |
+| Together | together |
+| Vllm | vllm |
+| Volcengine | volcengine |
+| Wenxin | wenxin |
+| XAI | xai |
+| Yi | yi |
+| Zhipu | zhipu |
+
+> 完整 130+ 项以上游为准：https://lobehub.com/icons
